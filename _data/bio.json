@@ -36,11 +36,12 @@
       "endDate": "Present",
       "courses": [
       ]
+    },
+    {
       "institution": "Kapiolani Community College, Honolulu, HI",
       "area": "Computer Science",
       "studyType": "A.S.",
       "endDate": "2023",
-      
     }
   ],
   "work": [
@@ -66,7 +67,7 @@
         "Troubleshoot software, hardware and networking issues",
         "Answer email responses to the ITS Network Operations"
       ]
-    }
+    },
      {
       "company": "UH School of Life Sciences",
       "position": "Web Content and Virtual Communacation Assistant",
@@ -87,9 +88,7 @@
       "endDate": "2019",
       "summary": "Planned outreach events",
       "highlights": [
-        
       ]
-   
     }
   ],
   "references": [
