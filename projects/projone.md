@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/download.png
+image: ursulanichols.github.io/img/download.png
 title: "projOne"
 date: 2023-08-23
 published: true
