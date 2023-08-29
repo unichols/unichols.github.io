@@ -11,4 +11,4 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-Learning javascript has given me a greater appreciation for the required prerequisite C and Java classes. 
+Learning javascript has given me a greater appreciation for the required prerequisite C and Java classes. Because javascript is a C-style language, it uses similar syntax to C, such as assignment operators and use of "{}". 
