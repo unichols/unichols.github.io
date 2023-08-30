@@ -11,5 +11,6 @@ labels:
   - React
 summary: "Discussion of the firs WOD"
 ---
-
+For this "Workout of the Day", we were assigned a relatively easy task, to find multiples of specific integers and return "Bert", "Ernie"
+.
 
