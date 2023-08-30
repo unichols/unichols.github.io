@@ -18,7 +18,7 @@ summary: "This first of three projects needs a goal, currently has none."
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-This is the first of three Projects required for this course. 
+JSFIDDLE WOD 
 
 ```cpp
 byte ADCRead(byte ch)
