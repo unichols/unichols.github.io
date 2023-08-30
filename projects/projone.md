@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: unichols.github.io/img/download.png
+image: img/download.png
 title: "projOne"
 date: 2023-08-23
 published: true
