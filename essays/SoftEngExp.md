@@ -8,4 +8,6 @@ published: true
 labels:
   - Software Engineering
 ---
-create a technical essay (approximately 3-4 paragraphs) that discusses your interests in software engineering and what kinds of skills and experiences you hope to develop in future.
+I have very little software engineering experience, and hope to come out of this course much more confident. As of now, I have a Pokemon GUI which may be considered a software engineering project, but besides that I run dry. I do work for the UH Website, and maintaining the WordPress page has opened my eyes as to how many layers go into creating a webpage. I hope that after this class, I may have enough literacy in development to work on projects that interest me.\t
+
+Some pro
