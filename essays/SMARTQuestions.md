@@ -23,6 +23,18 @@ Try to find an answer by asking a skilled friend.
 
 If you're a programmer, try to find an answer by reading the source code.
 
+Describe the symptoms of your problem or bug carefully and clearly.
+
+Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
+
+Describe the research you did to try and understand the problem before you asked the question.
+
+Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
+
+Describe any possibly relevant recent changes in your computer or software configuration.
+
+If at all possible, provide a way to reproduce the problem in a controlled environment.
+
 When asking this question, Raymond suggests NOT to do the following:
 
 Post your question to a forum where it's off topic
