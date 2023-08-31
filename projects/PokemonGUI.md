@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/POKEMON.png
+image: img/EVEE.png
 title: "PokemonGUI"
 date: 2023-08-30
 published: true
