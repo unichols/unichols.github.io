@@ -9,9 +9,9 @@ labels:
   - Educational Technology
   - Javascript
   - React
-summary: "Discussion of the firs WOD"
+summary: "Discussion of the first WOD"
 ---
-For this "Workout of the Day", we were assigned a relatively easy task, to find multiples of specific integers and return "Bert", "Ernie", or "BertErnie". I was confident in my four inf statemets and two for loops, but once I turned it in, I looked at my neighboors solution, which was much less redundant than mine. I realized that although my solution was correct, her solution was much more efficient. 
+For this "Workout of the Day", we were assigned a relatively easy task, to find multiples of specific integers and return "Bert", "Ernie", or "BertErnie". I was confident in my four if statemets and two for loops, but once I turned it in, I looked at my neighboors solution, which was much less redundant than mine. I realized that although my solution was correct, her solution was much more efficient. 
 
 The more efficient solution is provided below.
 function BertErnie(int){
