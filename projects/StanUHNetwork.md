@@ -2,34 +2,15 @@
 layout: project
 type: project
 image: img/download.png
-title: "projOne"
+title: "StanUHNetwork"
 date: 2023-08-23
 published: true
 labels:
   - Educational Technology
   - Javascript
   - React
-summary: "This first of three projects needs a goal, currently has none."
+summary: ""
 ---
+Due to the upcoming Stanford UH game, the Network Operations department is setting up a seperate network specifically for the UH-Stanford game attendees. For this, a compeletely new IP was created, connecting off of the HECO fioptic cables. We had to set up Access points, switches, and routers that addressed this new network. This was a little redundant, as there are already multiple acess points set up for the crowd. 
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
-
-JSFIDDLE WOD 
-
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+Although redundant, this accomodation was nessecary in order to provide internet access to the 9,000 to 15,000 attendees, as well as services that will televise, stream radio and other audio, and provide live statistics about the game. 
