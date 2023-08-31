@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/Screen Shot 2023-08-30 at 2.31.34 PM.png
 title: "StanUHNetwork"
-date: 2023-08-23
+date: 2023-08-30
 published: true
 labels:
   - Informational Technology
