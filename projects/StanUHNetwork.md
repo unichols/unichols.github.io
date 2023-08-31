@@ -6,9 +6,8 @@ title: "StanUHNetwork"
 date: 2023-08-23
 published: true
 labels:
-  - Educational Technology
-  - Javascript
-  - React
+  - Informational Technology
+  - Networking
 summary: ""
 ---
 Due to the upcoming Stanford UH game, the Network Operations department is setting up a seperate network specifically for the UH-Stanford game attendees. For this, a compeletely new IP was created, connecting off of the HECO fioptic cables. We had to set up Access points, switches, and routers that addressed this new network. This was a little redundant, as there are already multiple acess points set up for the crowd. 
