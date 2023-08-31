@@ -7,8 +7,8 @@ date: 2023-08-30
 published: true
 labels:
   - Educational Technology
-  - Javascript
-  - React
+  - Java
+  - Graphical User Interface
 summary: "Discussion of my first GUI"
 ---
 <div class="text-center">
