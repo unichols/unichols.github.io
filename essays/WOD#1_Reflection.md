@@ -4,7 +4,7 @@ type: essay
 title: "Reflect on WOD#1"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-03
-published: true
+published: false
 
 ---
 
