@@ -23,27 +23,6 @@ Try to find an answer by asking a skilled friend.
 
 If you're a programmer, try to find an answer by reading the source code.
 
-Describe the symptoms of your problem or bug carefully and clearly.
+On meta.stackoverflow, I found a thrilling question following the title, "Temporary policy: Generative AI (e.g., ChatGPT) is banned". When this discussion was opened nine months ago, users questioned why this ban was in place by asking chatGPT. These discussions have since been locked, but oh, is it amusing to check it out! 
 
-Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
-
-Describe the research you did to try and understand the problem before you asked the question.
-
-Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
-
-Describe any possibly relevant recent changes in your computer or software configuration.
-
-If at all possible, provide a way to reproduce the problem in a controlled environment.
-
-When asking this question, Raymond suggests NOT to do the following:
-
-Post your question to a forum where it's off topic
-
-Post a very elementary question to a forum where advanced technical questions are expected, or vice-versa
-
-Cross-post to too many different newsgroups
-
-Post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem
-
-
-
+The questions that the user asked chatGPT were, "why should stack overflow ban ai generated answers?" and "why should stack overflow allow ai generated answers?". The answers given to this user by generative AI demonstrated perfectly why stackoverflow decided to ban generative AI, with the answer to the first question logically providing reasosn why it shouldnʻt be included, then immediatley after almost refuting its claim when answering the second question. 
