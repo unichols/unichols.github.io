@@ -4,7 +4,7 @@ type: essay
 title: "Reflect on SMART Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
-published: false
+published: true
 
 ---
 According to Eric Raymond, to ask a SMART quesion, you must first address the following: 
