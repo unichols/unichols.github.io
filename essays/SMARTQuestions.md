@@ -7,6 +7,8 @@ date: 2023-08-30
 published: true
 
 ---
+<img width="1000px" class="rounded float-start pe-4" src="../img/smartquestions">
+
 According to Eric Raymond, to ask a SMART quesion, you must first address the following: 
 
 Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
