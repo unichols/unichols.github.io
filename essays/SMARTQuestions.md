@@ -7,7 +7,7 @@ date: 2023-08-30
 published: true
 
 ---
-<img width="1000px" class="rounded float-start pe-4" src="../img/smartquestions">
+<img width="1000px" class="rounded float-start pe-4" src="../img/smartquestions.png">
 
 According to Eric Raymond, to ask a SMART quesion, you must first address the following: 
 
