@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Software Engineering"
+title: "The Daunting Nature of Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
 published: true
@@ -9,6 +9,7 @@ labels:
   - Software Engineering
 ---
 <img width="1200px" class="rounded float-start pe-4" src="../img/Screen Shot 2023-09-06 at 11.42.10 AM.png">
+
 ## Experience
 
 I have very little software engineering experience, and hope to come out of this course much more confident. As of now, I have a Pokemon GUI which may be considered a software engineering project, but besides that I run dry. I do work for the UH Website, and maintaining the WordPress page has opened my eyes as to how many layers go into creating a webpage. I hope that after this class, I may have enough literacy in development to work on projects that interest me.
@@ -19,4 +20,4 @@ I would love to improve the Hawaiian Dictionary website, wehewehe.org. I have us
 
 ## Class Reveiws
 
-Just because I may not nessecarily have adequate experience to confidently develop projects I am interested in, Iʻm sure that by winter I will be much better prepared. On reddit, there are extremely high reveiws of this class, one user described this class and the class that made them actually feel like they could complete a project. I am hoping that I will get this result as well.
+Just because I may not nessecarily have adequate experience to confidently develop projects I am interested in, Iʻm sure that by winter I will be much better prepared. On reddit, there are extremely high reveiws of this ICS 314 class, one user described this class as the class that made them actually feel like they could complete a project. I am hoping that I will get this result as well.
