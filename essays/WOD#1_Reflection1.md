@@ -8,7 +8,7 @@ published: true
 labels:
   - Software Engineering
 ---
-<img width="1200px" class="rounded float-start pe-4" src="../img/bert.webpg">
+<img width="1200px" class="rounded float-start pe-4" src="../img/bert.webp">
 
   In this software engineering class, WODS, or Workouts of the Day and exercised meant to increase students confidence and skill in solving software engineering problems. The goal of the WOD is to help you assess whether or not you have learned the material from the previous week, and to help you determine if you need to improve your study habits for future weeks. They are timed assignments held at the beginning of Wednesday. 
   
