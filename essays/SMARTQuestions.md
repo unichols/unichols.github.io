@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflect on SMART Questions"
+title: "Stackoverflow Comedians"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
 published: true
