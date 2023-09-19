@@ -8,7 +8,7 @@ published: true
 labels:
   - Software Engineering
 ---
-<img width="1200px" class="rounded float-start pe-4" src="../img/javascrip.png">
+<img width="1200px" class="rounded float-start pe-4" src="../img/esint.png">
 
 
 ## Error Alert!
