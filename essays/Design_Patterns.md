@@ -9,6 +9,8 @@ labels:
   - Software Engineering
   - Generative AI
 ---
+<img width="1200px" class="rounded float-start pe-4" src="../img/music.jpg">
+
 ## Introduction
 In the vast realm of software development, design patterns are the harmonious melodies that shape the structure and behavior of our code. They are the elegant solutions to recurring problems, guiding us towards maintainability, extensibility, and flexibility. To truly grasp the essence of design patterns, let us embark on a metaphorical journey into the world of music, where each pattern represents a unique note, and our code becomes a symphony of innovation.
 
