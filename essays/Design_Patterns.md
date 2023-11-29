@@ -26,3 +26,5 @@ In the realm of creational patterns, I have employed the "Singleton" pattern, ak
 
 ## A Harmonious Ensemble
 In the symphony of software development, design patterns serve as the sheet music that guides our creations. They bring order to the chaos, fostering collaboration, maintainability, and extensibility. Just as a skilled composer masterfully combines musical notes to create a captivating melody, a proficient developer weaves design patterns to craft elegant and efficient code.
+
+*This essay was written with the help of ChatGPT.*
