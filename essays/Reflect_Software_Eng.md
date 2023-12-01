@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Exploring Software Engineering Beyond Web Applications: Agile Project Management and Design Patterns"
 # All dates must be YYYY-MM-DD format!
-date: 2023-11-29
+date: 2023-12-01
 published: true
 labels:
   - Software Engineering
