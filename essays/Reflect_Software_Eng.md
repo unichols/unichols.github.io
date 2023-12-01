@@ -9,7 +9,7 @@ labels:
   - Software Engineering
   - Generative AI
 ---
-<img width="1200px" class="rounded float-start pe-4" src="../img/SoftENg.jpg">
+<img width="1200px" height="300px" class="rounded float-start pe-4" src="../img/SoftENg.jpg">
 
 During this course, I have gained valuable insights into several fundamental software engineering concepts that go beyond web application development. In particular, I would like to discuss two topics: Agile Project Management and Design Patterns, and their applicability in various project contexts.
 
