@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/download.jpg
+image: img/Cable.png
 title: "CableTrackPro"
 date: 2023-12-12
 published: true
@@ -10,7 +10,7 @@ labels:
   - Javascript
 
 ---
-<img class="img-fluid" allign= "img-center" src="../img/landing_page">
+<img class="img-fluid" allign= "img-center" src="../img/landing_page.png">
 
 ## Purpose
 CableTrack PRO is the premier tool to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
