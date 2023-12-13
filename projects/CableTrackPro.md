@@ -10,6 +10,8 @@ labels:
   - Javascript
 
 ---
+<img class="img-fluid" allign= "img-center" src="../img/BERTERNIE.png">
+
 ## Purpose
 CableTrack PRO is the premier tool to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
 
@@ -38,5 +40,5 @@ CableTrack PRO allows you to create projects and add cables to them. You can the
 ## Cables
 CableTrack PRO allows you to create cables and add them to projects. You can then track the progress of each cable.
 
-My modified, more efficient solution is provided below.
-<img class="img-fluid" allign= "img-center" src="../img/BERTERNIE.png">
+## Educational Outcome
+Through building CableTrackPro, I learned how nuanced GitHub can be when working in a group. There were multiple instances where I committed, but I did not push my changes, which were then lost. Communicating the appropriate time to push changes was particularly important towards the end of this build, since there were still many changes being made.
