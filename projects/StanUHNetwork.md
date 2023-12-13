@@ -10,7 +10,7 @@ labels:
   - Networking
 summary: ""
 ---
-<img width="1200px" class="rounded float-start pe-4" src="../img/Stan.jpg">
+<img width="1200px" height="450px" class="rounded float-start pe-4" src="../img/Stan.jpg">
 
 Due to the upcoming Stanford UH game, the Network Operations department set up a separate network specifically for the UH-Stanford game attendees. For this, a completely new IP was created, connecting off of the HECO fioptic cables. We had to set up Access points, switches, and routers that addressed this new network. This was a little redundant, as there are already multiple access points set up for the crowd. 
 
