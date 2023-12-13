@@ -10,7 +10,7 @@ labels:
   - Javascript
 
 ---
-<img class="img-fluid" allign= "img-center" src="../img/landing-page.png">
+<img width="1200px" class="rounded float-start pe-4" allign= "img-center" src="../img/landing-page.png">
 
 ## Purpose
 CableTrack PRO is the premier tool to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
