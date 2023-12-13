@@ -8,7 +8,7 @@ published: true
 labels:
   - Informational Technology
   - Networking
-summary: ""
+summary: "Discussion of Network built to accommodate crowd for Standford UH game in Fall 2023"
 ---
 <img width="1200px" height="450px" class="rounded float-start pe-4" src="../img/Stan.jpg">
 
