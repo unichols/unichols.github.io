@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Screen Shot 2023-08-30 at 2.31.34 PM.png
-title: "StanUHNetwork"
+title: "Sports Network Operations"
 date: 2023-08-30
 published: true
 labels:
