@@ -10,7 +10,7 @@ labels:
   - Generative AI
 ---
 
-<img width="1200px" class="rounded float-start pe-4" src="../img/AI.png">
+<img width="1200px" height="300px" class="rounded float-start pe-4" src="../img/AI.png">
 
 ## Introduction
 
