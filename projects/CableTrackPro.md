@@ -8,7 +8,7 @@ published: true
 labels:
   - Educational Technology
   - Javascript
-
+summary: "Discussion of Final Project for ICS 314 Software Engineering"
 ---
 <img width="1200px" class="rounded float-start pe-4" allign= "img-center" src="../img/landing-page.png">
 
