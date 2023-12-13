@@ -4,7 +4,7 @@ type: essay
 title: "Bugs and Buttons"
 # All dates must be YYYY-MM-DD format!
 date: 2023-10-03
-published: true
+published: false
 labels:
   - Software Engineering
 ---
