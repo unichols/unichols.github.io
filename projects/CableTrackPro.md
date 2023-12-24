@@ -10,12 +10,11 @@ labels:
   - Javascript
 summary: "Discussion of Final Project for ICS 314 Software Engineering"
 ---
-<img width="1200px" class="rounded float-start pe-4" allign= "img-center" src="../img/landing-page.png">
 
-[Organization page](https://ingeniouspartners.github.io/)
+## [Organization page](https://ingeniouspartners.github.io/)
 
 
-[Project page](https://ingeniouspartners.github.io/#cabletrackpro)
+## [Project page](https://ingeniouspartners.github.io/#cabletrackpro)
 
 ## Purpose
 CableTrack PRO is the premier tool to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
