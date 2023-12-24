@@ -5,7 +5,7 @@ image: img/Cable.png
 title: "CableTrackPro"
 date: 2023-12-12
 published: true
-jekyll-theme-architect
+theme: jekyll-theme-architect
 labels:
   - Educational Technology
   - Javascript
