@@ -66,7 +66,3 @@ CableTrack PRO allows you to create cables and add them to projects. You can the
 ## Contribution
 My role in this build was to focus on the Company pages and testing, in addition to a Companies page. Because of the structure of the roles, it was not difficult to restrict access to these pages after login. Only the administrative role is able to access the Companies page, while all other roles access the company page associated with their company. Company identification is a vital aspect of this project because it was the identifying key after login to access Projects, cables, and user information. 
 
-<br>
-
-## Educational Outcome
-Through building CableTrackPro, I learned how nuanced GitHub can be when working in a group. There were multiple instances where I committed, but I did not push my changes, which were then lost. Communicating the appropriate time to push changes was particularly important towards the end of this build since there were still many changes being made.
