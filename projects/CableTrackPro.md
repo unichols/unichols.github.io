@@ -12,7 +12,7 @@ summary: "Discussion of Final Project for ICS 314 Software Engineering"
 ---
 <br>
 
-## &ensp; &ensp; &ensp; [<ins>Organization page</ins>](<https://ingeniouspartners.github.io/>)&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[Project page](<https://ingeniouspartners.github.io/#cabletrackpro>)
+## &ensp; &ensp; &ensp; [<ins>Organization page</ins>](<https://ingeniouspartners.github.io/>)&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[<ins>Project page</ins>](<https://ingeniouspartners.github.io/#cabletrackpro>)
 
 <br>
 
