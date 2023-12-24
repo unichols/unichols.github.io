@@ -4,7 +4,7 @@ type: project
 image: img/POKEMON.png
 title: "PokemonGUI"
 date: 2023-08-30
-published: true
+published: false
 labels:
   - Educational Technology
   - Java
