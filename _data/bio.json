@@ -1,0 +1,99 @@
+{
+  "basics": {
+    "name": "Ursula Nichols",
+    "label": "Student",
+    "picture": "https://github.com/unichols.png",
+    "email": "unichols@hawaii.edu",
+    "phone": "808-388-3787",
+    "website": "https://unichols.github.io",
+    "summary": "Expected to graduate in Fall, 2024 for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "unichols", "url": "http://github.com/unichols" },
+      { "network": "linkedin", "username": "ursulanichols", "url": "http://linkedin.com/in//ursula-nichols-093b62289/" }
+    ]
+  },
+  "interests": [
+    { "name": "IT" },
+    { "name": "Sustainability" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "SQL", "Python"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2023-08-23",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "A.S.",
+      "endDate": "2023"
+    }
+  ],
+  "work": [
+    {
+      "company": "Morning Brew Kakaako",
+      "position": "Line Cook/Shift manager",
+      "website": "",
+      "startDate": "2018-08-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Everything in terms of customer service, employee management and training, and BOH functions"
+      ]
+    },
+    {
+      "company": "UH Information Technology Services",
+      "position": "IT Technician",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2022-06-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues",
+        "Answer email responses to the ITS Network Operations"
+      ]
+    },
+     {
+      "company": "UH School of Life Sciences",
+      "position": "Web Content and Virtual Communacation Assistant",
+      "website": "http://www.hawaii.edu/lifesciences/",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, issues,update content"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scream, Run, and Tell Hawaii",
+      "position": "Event Manager",
+      "startDate": "2017-07-01",
+      "endDate": "2019",
+      "summary": "Planned outreach events",
+      "highlights": [
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
