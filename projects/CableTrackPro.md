@@ -32,12 +32,12 @@ In Milestone 1, we concentrated on laying out foundational functionality, primar
 <br>
 
 ## [<ins style="color: black">M2</ins>](https://github.com/orgs/ingeniouspartners/projects/2)
-In Milestone 2, we will be putting together the pages utilizing the components created during M1. This should lead to a second round of page development where we refactor the code for reusability.
+In Milestone 2, we put together the pages utilizing the components created during M1. This lead to a second round of page development where we refactored the code for reusability.
 
 <br>
 
 ## [<ins style="color: black">M3</ins>](https://github.com/orgs/ingeniouspartners/projects/3)
-In Milestone 3, we will be instrumenting the code with tests and adding documentation.
+In Milestone 3, we instrumented the code with tests and added documentation.
 
 <br>
 
