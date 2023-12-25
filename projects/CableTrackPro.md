@@ -9,7 +9,6 @@ theme: jekyll-theme-architect
 labels:
   - Educational Technology
   - Javascript
-summary: "Discussion of Final Project for ICS 314 Software Engineering"
 ---
 <br>
 
