@@ -36,7 +36,7 @@ In Milestone 2, we will be putting together the pages utilizing the components c
 
 <br>
 
-## M3
+## [<ins style="color: black">M3</ins>](https://github.com/orgs/ingeniouspartners/projects/3)
 In Milestone 3, we will be instrumenting the code with tests and adding documentation.
 
 <br>
