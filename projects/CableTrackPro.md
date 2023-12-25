@@ -18,7 +18,7 @@ summary: "Discussion of Final Project for ICS 314 Software Engineering"
 <br>
 
 ## Purpose
-CableTrack PRO is the premier tool to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
+CableTrack PRO is a tool which enables electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
 
  <br>
 
