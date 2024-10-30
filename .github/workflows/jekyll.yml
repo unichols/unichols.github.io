@@ -25,20 +25,22 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
-          bundler-cache: true  # Enables automatic gem caching
+          bundler-cache: true
 
-      - name: Install Bundler (if necessary)
+      - name: Ensure Bundler is Installed
+        run: gem install bundler
+
+      - name: Install Dependencies
         run: |
-          gem install bundler  # Ensures bundler is installed
-          bundle install       # Installs dependencies from Gemfile
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+        env:
+          BUNDLE_JOBS: 4  # Speed up installation
 
-      - name: Clear Bundle Cache (optional, only if necessary)
-        run: bundle cache clean --force
-        if: failure()  # Runs only if the previous step fails
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        id: pages
+      - name: Debug Gemfile.lock
+        run: |
+          echo "Showing Gemfile.lock contents for debugging"
+          cat Gemfile.lock || echo "Gemfile.lock not found"
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
