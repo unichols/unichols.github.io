@@ -25,7 +25,16 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
-          bundler-cache: true
+          bundler-cache: true  # Enables automatic gem caching
+
+      - name: Install Bundler (if necessary)
+        run: |
+          gem install bundler  # Ensures bundler is installed
+          bundle install       # Installs dependencies from Gemfile
+
+      - name: Clear Bundle Cache (optional, only if necessary)
+        run: bundle cache clean --force
+        if: failure()  # Runs only if the previous step fails
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -47,4 +56,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
