@@ -21,26 +21,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 # Updated to latest version
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Set Ruby version
-          bundler-cache: true # Caches installed gems automatically
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5 # Ensures compatibility with Pages
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Updated to latest version
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
