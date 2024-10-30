@@ -27,20 +27,17 @@ jobs:
           ruby-version: 3.1
           bundler-cache: true
 
-      - name: Ensure Bundler is Installed
+      - name: Install Bundler
         run: gem install bundler
 
-      - name: Install Dependencies
+      - name: Check Bundle
         run: |
-          bundle config set --local path 'vendor/bundle'
-          bundle install
-        env:
-          BUNDLE_JOBS: 4  # Speed up installation
+          bundle check || bundle install --verbose
+          bundle exec jekyll --version
 
-      - name: Debug Gemfile.lock
-        run: |
-          echo "Showing Gemfile.lock contents for debugging"
-          cat Gemfile.lock || echo "Gemfile.lock not found"
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
