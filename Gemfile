@@ -9,7 +9,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-gem "webrick", "~> 3.3.22" 
+gem "webrick", "~> 1.8.1"
 gem 'html-proofer'
 gem 'jekyll-gist', "~> 1.5"
 gem 'rouge', "~> 4.0"
