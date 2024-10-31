@@ -243,3 +243,24 @@ layout: home
     {% endif %}
   </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<script>
+  async function downloadJsonAsPdf() {
+    // Fetch bio.json data
+    const response = await fetch('/path/to/bio.json'); // Adjust this path
+    const bioData = await response.json();
+
+    // Use jsPDF to generate a PDF
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    // Format and add content from bioData to the PDF
+    doc.text("Resume", 10, 10);
+    doc.text(`Name: ${bioData.basics.name}`, 10, 20);
+    doc.text(`Email: ${bioData.basics.email}`, 10, 30);
+    // Add additional fields as needed
+
+    // Save the PDF
+    doc.save("Resume.pdf");
+  }
+</script>
