@@ -29,12 +29,10 @@ layout: home
           {% capture label %}{{ profile.username }}{% endcapture %}
           <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
-         <p class="mb-1">
-       <button onclick="downloadJsonAsPdf()" class="btn btn-link p-0" style="color: inherit;">
-         <img src="/assets/download-icon.png" alt="Download" width="16" height="16" style="margin-right: 5px;">
-         Download Resume as PDF
-       </button>
-     </p>
+        <a href="{{ "/assets/resume.pdf" | relative_url }}" download class="btn btn-link p-0" style="color: inherit; text-decoration: none;">
+        <i class="bi bi-download" style="margin-right: 5px;"></i> <!-- Bootstrap download icon -->
+          Download Resume as PDF
+    </a>
       </div>
       <div class="col">
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
@@ -254,7 +252,7 @@ layout: home
 <script>
   async function downloadJsonAsPdf() {
     // Fetch bio.json data
-    const response = await fetch('../data/bio.json'); // Adjust this path
+    const response = await fetch('../_data/bio.json'); // Adjust this path
     const bioData = await response.json();
 
     // Use jsPDF to generate a PDF
