@@ -134,7 +134,7 @@ layout: home
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.work %}
-          <div class="row mb-3">
+          <div class="row mb-3 container1">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
