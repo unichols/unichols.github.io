@@ -274,6 +274,8 @@ layout: home
 } </style>
 <script>
   function downloadPDF() {
+    // Hide footer
+    document.getElementById('footer').style.display = 'none';
     const element = document.body; // or specify a specific container, like document.querySelector('.container')
 
     // Add PDF-specific styling
