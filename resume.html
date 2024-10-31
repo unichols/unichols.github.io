@@ -255,16 +255,21 @@ layout: home
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
   function downloadPDF() {
-    // Define the part of the page to capture as PDF
-    const element = document.body; // Capture entire page, or adjust to specific content
+    const element = document.body; // or specify a specific container, like document.querySelector('.container')
 
-    // Generate the PDF
+    // Add PDF-specific styling
+    element.classList.add('pdf-styles');
+
+    // Generate the PDF with html2pdf
     html2pdf(element, {
-      margin:       0.5,
-      filename:     'resume.pdf',
-      image:        { type: 'jpeg', quality: 0.98 },
-      html2canvas:  { scale: 0.8 },
-      jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+      margin: 0.2,
+      filename: 'resume.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 0.7 }, // Adjust scale for fitting on one page
+      jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+    }).then(() => {
+      // Remove PDF-specific styling after download
+      element.classList.remove('pdf-styles');
     });
   }
 </script>
