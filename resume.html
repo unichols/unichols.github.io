@@ -30,10 +30,13 @@ layout: home
           {% capture label %}{{ profile.username }}{% endcapture %}
           <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
-        <a href="{{ "/assets/resume.pdf" | relative_url }}" download class="btn btn-link p-0" style="color: inherit; text-decoration: none;">
-        <i class="bi bi-download" style="margin-right: 5px;"></i> <!-- Bootstrap download icon -->
-          Download Resume as PDF
-    </a>
+       <div class="col">
+  <p class="mb-1">
+    <button onclick="downloadPDF()" class="btn btn-link p-0" style="color: inherit; text-decoration: none;">
+      <i class="fas fa-download" style="margin-right: 5px;"></i> Download Resume as PDF
+    </button>
+  </p>
+</div>
       </div>
       <div class="col">
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
