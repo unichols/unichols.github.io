@@ -254,24 +254,26 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <style>
-.pdf-styles .small-link,
-.pdf-styles h1,
-.pdf-styles h2,
-.pdf-styles h3,
-.pdf-styles h4,
-.pdf-styles h5 {
-  font-size: 15px !important; /* Smaller font for headings in PDF */
-  line-height: 1.2; /* Adjust line height for better fit */
-}
+  .pdf-styles h1, .pdf-styles .lead {
+    font-size: 1.5rem; /* Smaller heading size for PDF */
+  }
 
-/* Additional styling for all text within the PDF */
-.pdf-styles p,
-.pdf-styles a,
-.pdf-styles span,
-.pdf-styles li {
-  font-size: 9px !important; /* Smaller general text font size for PDF */
-  line-height: 1.1;
-} </style>
+  .pdf-styles .small-link a, .pdf-styles .small-link i {
+    font-size: 0.8rem; /* Smaller link size for contact info in PDF */
+  }
+
+  /* General small font for PDF */
+  .pdf-styles p, .pdf-styles a, .pdf-styles span, .pdf-styles li {
+    font-size: 10px !important;
+    line-height: 1.2;
+  }
+  
+  /* Ensures no-print elements are hidden in PDF */
+  .no-print {
+    display: none;
+  }
+</style>
+
 <script>
   function downloadPDF() {
     
