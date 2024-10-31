@@ -255,8 +255,10 @@ layout: home
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
   function downloadPDF() {
-    const element = document.body; // Select the content you want to convert to PDF
+    // Define the part of the page to capture as PDF
+    const element = document.body; // Capture entire page, or adjust to specific content
 
+    // Generate the PDF
     html2pdf(element, {
       margin:       0.5,
       filename:     'resume.pdf',
