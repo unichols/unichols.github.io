@@ -68,11 +68,11 @@ layout: home
     </div>
 
     {% if site.data.bio.skills %}
-    <div class="row pt-4 align-items-center container1">
+    <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Skills</h1>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-9 container1">
         {% for entry in site.data.bio.skills %}
           <p class="m-0">
             <b>{{ entry.name }}:</b>
@@ -90,7 +90,7 @@ layout: home
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Education</h1>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-9 container1">
         {% for entry in site.data.bio.education %}
           <div class="row mb-3">
             <div class="col-9">
