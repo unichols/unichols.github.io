@@ -254,6 +254,7 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 /* PDF-specific styles to reduce font sizes for links and headings */
+<style>
 .pdf-styles .small-link,
 .pdf-styles h1,
 .pdf-styles h2,
@@ -271,7 +272,7 @@ layout: home
 .pdf-styles li {
   font-size: 9px !important; /* Smaller general text font size for PDF */
   line-height: 1.1;
-}
+} </style>
 <script>
   function downloadPDF() {
     const element = document.body; // or specify a specific container, like document.querySelector('.container')
