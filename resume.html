@@ -261,7 +261,7 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <style>
-  .pdf-styles .container {
+  .pdf-styles {
     filter: grayscale(100%); /* Converts everything to black and white */
     color: #000 !important; /* Ensures all text is black */
   }
@@ -292,6 +292,9 @@ layout: home
   }
   .pdf-styles .no-print {
     display: none !important;
+  }
+  .pdf-styles .container {
+     background-color: #ffffff;
   }
 </style>
 
