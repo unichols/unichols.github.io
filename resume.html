@@ -253,6 +253,25 @@ layout: home
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+/* PDF-specific styles to reduce font sizes for links and headings */
+.pdf-styles .small-link,
+.pdf-styles h1,
+.pdf-styles h2,
+.pdf-styles h3,
+.pdf-styles h4,
+.pdf-styles h5 {
+  font-size: 10px !important; /* Smaller font for headings in PDF */
+  line-height: 1.2; /* Adjust line height for better fit */
+}
+
+/* Additional styling for all text within the PDF */
+.pdf-styles p,
+.pdf-styles a,
+.pdf-styles span,
+.pdf-styles li {
+  font-size: 9px !important; /* Smaller general text font size for PDF */
+  line-height: 1.1;
+}
 <script>
   function downloadPDF() {
     const element = document.body; // or specify a specific container, like document.querySelector('.container')
@@ -273,3 +292,4 @@ layout: home
     });
   }
 </script>
+
