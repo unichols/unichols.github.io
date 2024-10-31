@@ -254,6 +254,21 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <style>
+  .pdf-styles {
+    filter: grayscale(100%); /* Converts everything to black and white */
+    color: #000 !important; /* Ensures all text is black */
+  }
+
+  /* Additional adjustments for elements that need to be black in PDF */
+  .pdf-styles a {
+    color: #000 !important; /* Make all links black */
+    text-decoration: none; /* Remove underline from links in PDF */
+  }
+
+  .pdf-styles i, .pdf-styles svg {
+    color: #000 !important; /* Make icons black */
+    fill: #000 !important;
+  }
   .pdf-styles h1, .pdf-styles .lead {
     font-size: 1.5rem; /* Smaller heading size for PDF */
   }
