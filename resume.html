@@ -284,7 +284,7 @@ layout: home
       margin: 0.2,
       filename: 'resume.pdf',
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 0.7 }, // Adjust scale for fitting on one page
+      html2canvas: { scale: 1 }, // Adjust scale for fitting on one page
       jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
     }).then(() => {
       // Remove PDF-specific styling after download
