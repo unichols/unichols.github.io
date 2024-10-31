@@ -1,48 +1,114 @@
-/* Lime Theme: modifies the default theme to inject a wee bit o' green in various places. */
+/* Cute Lime Theme: Pastel greens, softer fonts, rounded edges, and subtle shadows for a playful look */
 
-/* Use Open Sans as the default font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+/* Use Poppins for headings and Open Sans for body text. */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600|Open+Sans:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Define custom colors and styling */
 :root {
-  --tf-green1: #136c14;
-  --tf-green2: #4FA64F;
-  --tf-green3: #85C285;
-  --tf-green4: #e0f2df;
+  --tf-green1: #4CAF50;
+  --tf-green2: #81C784;
+  --tf-green3: #A5D6A7;
+  --tf-green4: #E8F5E9;
+  --tf-green-pale: #DCEDC8;
+  --tf-green-pastel: #C8E6C9;
+
+  /* Font settings */
   --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-family-headings: "Poppins", sans-serif;
+  
+  /* Link and icon colors */
   --bs-link-color: var(--tf-green1);
-  --tf-pill-bg: var(--tf-green3);
+  --tf-pill-bg: var(--tf-green2);
   --tf-icon-fill: var(--tf-green1);
   --tf-icon-hover: var(--tf-green2);
-  --tf-page-bg-color: var(--bs-white);
+  --tf-page-bg-color: var(--tf-green-pale);
   --tf-footer-bg-color: var(--tf-green4);
-  --tf-projects-bg-color: var(--tf-green4);
+  --tf-projects-bg-color: var(--tf-green-pastel);
+
+  /* Add rounded corners for a softer look */
+  --bs-border-radius: 8px;
+  --bs-border-radius-lg: 12px;
+  --bs-border-radius-sm: 6px;
 }
 
-h1,h2,h3,h4,h5 {
+/* Headings styled with playful font and pastel green color */
+h1, h2, h3, h4, h5 {
   color: var(--tf-green1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
-/* Format social media icons */
+/* Body text color and spacing */
+body {
+  color: #4E4E4E;
+  line-height: 1.7;
+}
+
+/* Soften social media icon style */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-green1);
+  fill: var(--tf-icon-fill);
   height: 1.5em;
-  vertical-align: -.1em;
   width: 1.5em;
-  transition: 0.2s;
+  vertical-align: -0.1em;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  background-color: var(--tf-green4);
+  padding: 0.2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  background-color: var(--tf-green2);
+  transform: scale(1.1);
 }
 
+/* Button styling for a cute, soft look */
+button {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--tf-green1);
+  color: white;
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: var(--bs-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--tf-green2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for links */
 a {
   text-decoration: none;
+  color: var(--tf-green1);
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+a:hover {
+  color: var(--tf-green2);
+  text-decoration: underline;
+}
+
+/* Add gentle card styling with rounded corners and shadows */
+.card {
+  border-radius: var(--bs-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: white;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Simplify the styling of the bottom of Essay cards */
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: var(--tf-green4);
   border-top: none;
+  border-radius: 0 0 var(--bs-border-radius) var(--bs-border-radius);
 }
