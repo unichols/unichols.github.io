@@ -12,4 +12,4 @@ end
 gem "webrick", "~> 1.8.1"
 gem 'html-proofer'
 gem 'jekyll-gist', "~> 1.5"
-gem 'rouge', '= 3.26.0'
+gem 'rouge'
