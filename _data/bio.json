@@ -12,7 +12,7 @@
       "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Hawaiʻi"
     },
     "profiles": [
       { "network": "GitHub", "username": "unichols", "url": "http://github.com/unichols" },
@@ -35,7 +35,7 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of Hawaiʻi, Honolulu, HI",
       "area": "Computer Science (Expected Fall 2024)",
       "studyType": "B.S.",
       "startDate": "2023-08-23",
@@ -51,7 +51,7 @@
   ],
   "work": [
     {
-      "company": "Morning Brew Kakaako",
+      "company": "Morning Brew Kakaʻako",
       "position": "Line Cook, Barista, Shift Lead",
       "website": "",
       "startDate": "2018-08-01",
