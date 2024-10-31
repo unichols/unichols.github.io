@@ -251,22 +251,15 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
-  async function downloadJsonAsPdf() {
-    // Fetch bio.json data
-    const response = await fetch('../_data/bio.json'); // Adjust this path
-    const bioData = await response.json();
+  function downloadPDF() {
+    const element = document.body; // Select the content you want to convert to PDF
 
-    // Use jsPDF to generate a PDF
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
-
-    // Format and add content from bioData to the PDF
-    doc.text("Resume", 10, 10);
-    doc.text(`Name: ${bioData.basics.name}`, 10, 20);
-    doc.text(`Email: ${bioData.basics.email}`, 10, 30);
-    // Add additional fields as needed
-
-    // Save the PDF
-    doc.save("Resume.pdf");
+    html2pdf(element, {
+      margin:       0.5,
+      filename:     'resume.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2 },
+      jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+    });
   }
 </script>
