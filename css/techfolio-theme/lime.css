@@ -46,3 +46,12 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+/* Hide download button when generating PDF */
+.pdf-styles .pdf-download-btn {
+  display: none;
+}
+
+/* Smaller link styling for email and social links in PDF */
+.pdf-styles .small-link {
+  font-size: 8px; /* Smaller font for PDF links */
+}
