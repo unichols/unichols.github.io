@@ -14,7 +14,7 @@ layout: home
 <div id="resume" style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <div class="row container1">
+    <div class="row">
       <div class="col">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
       </div>
@@ -56,7 +56,7 @@ layout: home
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Interests</h1>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-9 container1">
         <p class="m-0">
           {% for entry in site.data.bio.interests %}
           {{ entry.name }}
