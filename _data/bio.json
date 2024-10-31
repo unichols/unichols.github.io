@@ -1,41 +1,46 @@
 {
   "basics": {
     "name": "Ursula Nichols",
-    "label": "Student",
+    "label": "Computer Science Student & IT Professional",
     "picture": "https://github.com/unichols.png",
     "email": "unichols@hawaii.edu",
     "phone": "808-388-3787",
     "website": "https://unichols.github.io",
-    "summary": "Expected to graduate in Fall, 2024 for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" }, 
+    "summary": "Aspiring computer scientist with a strong foundation in programming, IT support, and web development, graduating in Fall 2024 with a B.S. in Computer Science from the University of Hawaii. Dedicated to leveraging technology for innovative problem-solving and sustainability initiatives.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "unichols", "url": "http://github.com/unichols" },
-      { "network": "linkedin", "username": "ursulanichols", "url": "http://linkedin.com/in//ursula-nichols-093b62289/" }
+      { "network": "GitHub", "username": "unichols", "url": "http://github.com/unichols" },
+      { "network": "LinkedIn", "username": "ursulanichols", "url": "http://linkedin.com/in/ursula-nichols-093b62289/" }
     ]
   },
   "interests": [
-    { "name": "IT" }, 
-    { "name": "Sustainability" }
+    { "name": "Information Technology" },
+    { "name": "Environmental Sustainability" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "SQL", "Python"]
+      "name": "Programming Languages & Frameworks",
+      "keywords": ["C", "C++", "Java", "JavaScript", "SQL", "Python"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Technical Tools & Operating Systems",
+      "keywords": ["MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2024)",
+      "area": "Computer Science (Expected Fall 2024)",
       "studyType": "B.S.",
       "startDate": "2023-08-23",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "Kapiolani Community College, Honolulu, HI",
@@ -47,13 +52,13 @@
   "work": [
     {
       "company": "Morning Brew Kakaako",
-      "position": "Line Cook, Shift manager, & Barista",
+      "position": "Shift Manager & Barista",
       "website": "",
       "startDate": "2018-08-01",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Oversaw daily operations, delivered outstanding customer service, and trained new hires, ensuring efficiency and quality in a high-paced environment.",
       "highlights": [
-        "Everything in terms of customer service, employee management and training, and both back and front of house functions"
+        "Managed back and front of house functions, staff training, and customer service to ensure smooth daily operations."
       ]
     },
     {
@@ -62,20 +67,20 @@
       "website": "http://www.hawaii.edu/its/",
       "startDate": "2022-06-01",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Provided technical support for students and faculty, troubleshooting software, hardware, and networking issues with a focus on excellent customer service.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues"
+        "Successfully diagnosed and resolved complex technical issues to ensure seamless IT support for end users."
       ]
     },
-     {
+    {
       "company": "UH School of Life Sciences",
-      "position": "Web Content and Virtual Communication Assistant",
+      "position": "Web Content & Communications Assistant",
       "website": "http://www.hawaii.edu/lifesciences/",
       "startDate": "2023-01-01",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Enhanced web content and managed digital communications, ensuring up-to-date information and user-friendly online experiences.",
       "highlights": [
-        "Troubleshoot software, issues,update content"
+        "Troubleshot web issues and updated site content to optimize user experience and digital accessibility."
       ]
     }
   ],
@@ -85,9 +90,8 @@
       "position": "Event Manager",
       "startDate": "2017-07-01",
       "endDate": "2019",
-      "summary": "Planned outreach events",
-      "highlights": [
-      ]
+      "summary": "Coordinated community outreach events focused on public safety and engagement, bringing together resources and volunteers to create impactful experiences.",
+      "highlights": []
     }
   ],
   "references": [
