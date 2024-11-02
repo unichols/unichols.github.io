@@ -72,7 +72,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* Style the link container */
+/* Common styles for social link container */
 .social-link {
   position: relative;
   display: inline-flex;
@@ -80,11 +80,12 @@ a {
   margin: 10px;
   text-decoration: none;
 }
-/* Tooltip styling */
-.social-label {
+
+/* Tooltip Style for the First Tooltip */
+.tooltip-one {
   visibility: hidden;
-  background-color: #ffcccb; /* Light pink background */
-  color: #333;
+  background-color: #ffcccb; /* Light pink background for tooltip one */
+  color: #333; /* Text color */
   text-align: center;
   padding: 5px;
   border-radius: 5px;
@@ -98,7 +99,42 @@ a {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   opacity: 0;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000; /* Ensure tooltip appears above other elements */
 }
+
+/* Show the first tooltip on hover */
+.social-link:hover .tooltip-one {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Tooltip Style for the Second Tooltip */
+.tooltip-two {
+  visibility: hidden;
+  background-color: #d4e157; /* Light green background for tooltip two */
+  color: #333; /* Text color */
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: -30px; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+
+/* Show the second tooltip on hover */
+.social-link:hover .tooltip-two {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Style each GIF with rounded corners, shadow, and hover effect */
 .social-icon {
   width: 50px;
@@ -107,12 +143,8 @@ a {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .social-icon:hover {
   transform: scale(1.1); /* Slight zoom effect */
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
-}
-/* Show the tooltip on hover */
-.social-link:hover .social-label {
-  visibility: visible;
-  opacity: 1;
 }
