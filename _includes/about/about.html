@@ -20,7 +20,7 @@
 
           {% if site.data.bio.basics.website %}
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col text-center social-link">
+            <div class="col text-center social-link-home">
               <img src="home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
               <span class="hover-text"><a href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
             </div>
@@ -28,7 +28,7 @@
 
           {% if site.data.bio.basics.email %}
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col text-center social-link">
+            <div class="col text-center social-link-home">
               <img src="email.gif" alt="Email" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
               <span class="hover-text"><a href="{{ url }}">{{ site.data.bio.basics.email }}</a></span>
             </div>
@@ -37,7 +37,7 @@
           {% for profile in site.data.bio.basics.profiles %}
             {% capture url %}{{ profile.url }}{% endcapture %}
             {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col text-center social-link">
+            <div class="col text-center social-link-home">
               {% if name == 'github' %}
                 <img src="github.gif" alt="GitHub" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
               {% elsif name == 'linkedin' %}
