@@ -22,7 +22,7 @@
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center social-link-home">
               <img src="home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text tooltip-one"><a title="Website" href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
+              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">Visit My Website</a></span>
             </div>
           {% endif %}
 
@@ -30,7 +30,7 @@
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
             <div class="col text-center social-link-home">
               <img src="email.gif" alt="Email" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text tooltip-one" ><a href="{{ url }}">{{ site.data.bio.basics.email }}</a></span>
+              <span class="hover-text tooltip-one"><a href="{{ url }}">Send an Email</a></span>
             </div>
           {% endif %}
 
@@ -40,10 +40,11 @@
             <div class="col text-center social-link-home">
               {% if name == 'github' %}
                 <img src="github.gif" alt="GitHub" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">View GitHub Profile</a></span>
               {% elsif name == 'linkedin' %}
                 <img src="NavBar3.gif" alt="LinkedIn" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">Connect on LinkedIn</a></span>
               {% endif %}
-              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">{{ profile.username }}</a></span>
             </div>
           {% endfor %}
 
@@ -52,4 +53,3 @@
     </div>
   </div>
 </div>
-s
