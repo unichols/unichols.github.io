@@ -103,6 +103,14 @@ a {
   visibility: visible;
   opacity: 1;
 }
+/* Style the link container */
+.social-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
 /* Tooltip styling */
 .social-label {
   visibility: hidden;
