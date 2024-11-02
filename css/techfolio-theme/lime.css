@@ -189,3 +189,7 @@ a {
   text-decoration: none;
   color: var(--tf-green1);
 }
+/* Hide all SVG icons inside the social link sections */
+.col.text-center .tf-social {
+  display: none;
+}
