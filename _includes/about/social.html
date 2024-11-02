@@ -4,15 +4,15 @@
   </svg>
   <span>{{ include.label }}</span>
 </a> -->
-<a href="{{ include.url }}" target="_blank" class="social-link-home">
+<a href="{{ include.url }}" target="_blank" class="social-link-home ">
   {% if include.name == 'house' %}
-    <img src="home.gif" alt="Website" class="social-icon">
+    <img src="home.gif" alt="Website" class="social-icon .pdf-download-btn">
   {% elsif include.name == 'envelope' %}
-    <img src="email.gif" alt="Email" class="social-icon">
+    <img src="email.gif" alt="Email" class="social-icon .pdf-download-btn">
   {% elsif include.name == 'github' %}
-    <img src="github.gif" alt="GitHub" class="social-icon">
+    <img src="github.gif" alt="GitHub" class="social-icon .pdf-download-btn">
   {% elsif include.name == 'linkedin' %}
-    <img src="gif5.gif" alt="LinkedIn" class="social-icon">
+    <img src="gif5.gif" alt="LinkedIn" class="social-icon .pdf-download-btn">
   {% endif %}
   <span class="tooltip-one">{{ include.label }}</span>
 </a>
