@@ -22,7 +22,7 @@
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center">
               <img src="home.gif" alt="Website" style="width: 40px; height: 40px; vertical-align: middle;">
-              {% include about/social.html url=url name='house' %}
+              <a href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a>
             </div>
           {% endif %}
 
@@ -30,7 +30,7 @@
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
             <div class="col text-center">
               <img src="email.gif" alt="Email" style="width: 40px; height: 40px; vertical-align: middle;">
-              {% include about/social.html url=url name='envelope' %}
+              <a href="{{ url }}">{{ site.data.bio.basics.email }}</a>
             </div>
           {% endif %}
 
@@ -41,9 +41,9 @@
               {% if name == 'github' %}
                 <img src="github.gif" alt="GitHub" style="width: 40px; height: 40px; vertical-align: middle;">
               {% elsif name == 'linkedin' %}
-                <img src="NavBar3.gif" alt="LinkedIn" style="width: 40px; height: 40px; vertical-align: middle;">
+                <img src="linkedin.gif" alt="LinkedIn" style="width: 40px; height: 40px; vertical-align: middle;">
               {% endif %}
-              {% include about/social.html url=url name=name %}
+              <a href="{{ url }}" target="_blank">{{ profile.username }}</a>
             </div>
           {% endfor %}
 
