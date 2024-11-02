@@ -61,7 +61,7 @@ a {
     text-decoration: underline;
 }
 .custom-navbar {
-    background-color: var(--tf-green1); /* or any other color variable */
+    background-color: var(--tf-green3); /* or any other color variable */
     border-bottom: 2px solid var(--tf-green2);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
