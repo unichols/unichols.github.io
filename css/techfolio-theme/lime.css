@@ -83,7 +83,6 @@ a {
 
 /* Tooltip Style for the First Tooltip */
 .tooltip-one {
-  visibility: hidden;
   background-color: #ffcccb; /* Light pink background for tooltip one */
   color: #333; /* Text color */
   text-align: center;
@@ -110,7 +109,6 @@ a {
 
 /* Tooltip Style for the Second Tooltip */
 .tooltip-two {
-  visibility: hidden;
   background-color: #d4e157; /* Light green background for tooltip two */
   color: #333; /* Text color */
   text-align: center;
