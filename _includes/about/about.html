@@ -22,7 +22,7 @@
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center social-link-home">
               <img src="home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text"><a href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
+              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
             </div>
           {% endif %}
 
@@ -30,7 +30,7 @@
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
             <div class="col text-center social-link-home">
               <img src="email.gif" alt="Email" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text"><a href="{{ url }}">{{ site.data.bio.basics.email }}</a></span>
+              <span class="hover-text tooltip-one" ><a href="{{ url }}">{{ site.data.bio.basics.email }}</a></span>
             </div>
           {% endif %}
 
@@ -43,7 +43,7 @@
               {% elsif name == 'linkedin' %}
                 <img src="NavBar3.gif" alt="LinkedIn" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
               {% endif %}
-              <span class="hover-text"><a href="{{ url }}" target="_blank">{{ profile.username }}</a></span>
+              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">{{ profile.username }}</a></span>
             </div>
           {% endfor %}
 
