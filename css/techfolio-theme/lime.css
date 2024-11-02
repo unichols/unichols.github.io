@@ -130,6 +130,18 @@ a {
   opacity: 0;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+/* Style each GIF with rounded corners, shadow, and hover effect */
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Make icons round */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+}
 /* Show the tooltip on hover */
 .social-link:hover .social-label {
   visibility: visible;
