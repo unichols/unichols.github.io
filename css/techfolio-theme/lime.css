@@ -160,7 +160,7 @@ a {
 .social-link-home .tooltip-one {
   visibility: hidden;
   background-color: #ffcccb;
-  color: #85C285;
+  color: #85C285; !important;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
