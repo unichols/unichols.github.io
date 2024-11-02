@@ -181,11 +181,6 @@ a {
   opacity: 1;
 }
 
-/* Remove tooltip effects and GIF animations on resume page */
-.social-link-resume .social-icon {
-  display: none; /* Hides icons */
-}
-
 .social-link-resume span {
   color: #333;
   font-weight: normal;
