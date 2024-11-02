@@ -7,12 +7,16 @@
 <a href="{{ include.url }}" target="_blank" class="social-link-home ">
   {% if include.name == 'house' %}
     <img src="home.gif" alt="Website" class="social-icon .pdf-download-btn">
+    <span class="tooltip-one">Website</span>
   {% elsif include.name == 'envelope' %}
     <img src="email.gif" alt="Email" class="social-icon .pdf-download-btn">
+     <span class="tooltip-one">Email</span>
   {% elsif include.name == 'github' %}
     <img src="github.gif" alt="GitHub" class="social-icon .pdf-download-btn">
+     <span class="tooltip-one">v</span>
   {% elsif include.name == 'linkedin' %}
     <img src="gif5.gif" alt="LinkedIn" class="social-icon .pdf-download-btn">
+     <span class="tooltip-one">LinkedIn</span>
   {% endif %}
   <span class="tooltip-one">{{ include.label }}</span>
 </a>
