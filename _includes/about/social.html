@@ -7,15 +7,15 @@
 <a href="{{ include.url }}" target="_blank">
   <!-- Conditional logic to select the appropriate GIF based on the name -->
   {% if include.name == 'house' %}
-    <img src="home.gif" alt="Website" style="width: 30px; height: 30px;">
+    <img src="home.gif" alt="Website" style="width: 50px; height: 50px;">
   {% elsif include.name == 'envelope' %}
-    <img src="email.gif" alt="Email" style="width: 30px; height: 30px;">
+    <img src="email.gif" alt="Email" style="width: 50px; height: 50px;">
   {% elsif include.name == 'github' %}
-    <img src="github.gif" alt="GitHub" style="width: 30px; height: 30px;">
+    <img src="github.gif" alt="GitHub" style="width: 50px; height: 50px;">
   {% elsif include.name == 'linkedin' %}
-    <img src="gif1.gif" alt="LinkedIn" style="width: 30px; height: 30px;">
+    <img src="gif1.gif" alt="LinkedIn" style="width: 50px; height: 50px;">
   {% else %}
-    <img src="/assets/images/default-icon.gif" alt="{{ include.name }}" style="width: 30px; height: 30px;">
+    <img src="/assets/images/default-icon.gif" alt="{{ include.name }}" style="width: 50px; height: v;">
   {% endif %}
   
   <!-- Optional: Add a label if needed -->
