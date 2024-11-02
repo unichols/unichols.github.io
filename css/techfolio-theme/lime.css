@@ -85,7 +85,7 @@ a {
 /* Tooltip Style for the First Tooltip */
 .tooltip-one {
   background-color: #ffcccb; /* Light pink background for tooltip one */
-  color: #333; /* Text color */
+  color: #85C285; /* Text color */
   text-align: center;
   padding: 5px;
   border-radius: 5px;
@@ -159,7 +159,7 @@ a {
 .social-link-home .tooltip-one {
   visibility: hidden;
   background-color: #ffcccb;
-  color: #333;
+  color: #85C285;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
