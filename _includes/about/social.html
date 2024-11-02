@@ -4,18 +4,15 @@
   </svg>
   <span>{{ include.label }}</span>
 </a> -->
-<a href="{{ include.url }}" target="_blank"  class="social-link">
-  <!-- Conditional logic to select the appropriate GIF based on the name -->
+<a href="{{ include.url }}" target="_blank" class="social-link-home">
   {% if include.name == 'house' %}
-    <img src="home.gif" alt="Website"  class="social-icon" style="width: 65px; height: 65px;">
+    <img src="home.gif" alt="Website" class="social-icon">
   {% elsif include.name == 'envelope' %}
-    <img src="email.gif" alt="Email" class="social-icon" style="width: 65px; height: 65px;">
+    <img src="email.gif" alt="Email" class="social-icon">
   {% elsif include.name == 'github' %}
-    <img src="github.gif" alt="GitHub"  class="social-icon" style="width: 65px; height: 65px;">
+    <img src="github.gif" alt="GitHub" class="social-icon">
   {% elsif include.name == 'linkedin' %}
-    <img src="gif5.gif" alt="LinkedIn"  class="social-icon" style="width: 65px; height: 65px;">
-  {% else %}
-    <img src="/assets/images/default-icon.gif" alt="{{ include.name }}" style="width: 65px; height: v;">
+    <img src="gif5.gif" alt="LinkedIn" class="social-icon">
   {% endif %}
-  <span class="social-label">{{ include.label }}</span>
+  <span class="tooltip-one">{{ include.label }}</span>
 </a>
