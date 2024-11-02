@@ -80,7 +80,7 @@ a {
 .navbar {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #85C285 !important;
+  background-color: #e0f2df !important;
 }
 /* Common styles for social link container */
 .social-link {
@@ -94,7 +94,7 @@ a {
 /* Tooltip Style for the First Tooltip */
 .tooltip-one {
   background-color: #ffecf2 !important; /* Light pink background for tooltip one */
-  color: #85C285; /* Text color */
+  color: #e0f2df; /* Text color */
   text-align: center;
   padding: 5px;
   border-radius: 5px;
@@ -168,7 +168,7 @@ a {
 .social-link-home .tooltip-one {
   visibility: hidden;
   background-color: #ffecf2 !important;
-  color: #85C285 !important;
+  color: #e0f2df !important;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
