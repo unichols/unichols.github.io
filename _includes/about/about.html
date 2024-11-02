@@ -22,7 +22,7 @@
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center social-link-home">
               <img src="home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
+              <span class="hover-text tooltip-one"><a title="Website" href="{{ url }}" target="_blank">{{ url | remove: "http://" | remove: "https://" }}</a></span>
             </div>
           {% endif %}
 
