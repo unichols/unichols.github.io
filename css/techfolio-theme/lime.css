@@ -26,7 +26,7 @@ body {
   cursor: url('cursor1.png'), auto;
 }
 a, button {
-  cursor: url('click.png'), pointer;
+  cursor: url('click2.png'), pointer;
 }
 /* Format social media icons */
 .tf-social {
