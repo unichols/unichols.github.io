@@ -23,10 +23,10 @@ h1,h2,h3,h4,h5 {
   color: var(--tf-green1);
 }
 body {
-  cursor: url('cursor1.png'), auto;
+  cursor: url('/cursor1.png'), auto;
 }
 a, button {
-  cursor: url('cursor2.png'), pointer;
+  cursor: url('/cursor2.png'), pointer;
 }
 /* Format social media icons */
 .tf-social {
