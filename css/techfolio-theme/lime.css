@@ -14,7 +14,7 @@
   --tf-pill-bg: var(--tf-green3);
   --tf-icon-fill: var(--tf-green1);
   --tf-icon-hover: var(--tf-green2);
-  --tf-page-bg-color: var(--bs-white);
+  /*--tf-page-bg-color: var(--bs-white);*/
   --tf-footer-bg-color: var(--tf-green4);
   --tf-projects-bg-color: var(--tf-green4);
 }
@@ -23,10 +23,10 @@ h1,h2,h3,h4,h5 {
   color: var(--tf-green1);
 }
 body {
-  cursor: url('/cursor1.png') 16 16, auto;
+  cursor: url('/img/cursor1.png') 16 16, auto;
 }
 a, button {
-  cursor: url('/click1.png') 8 8, pointer;
+  cursor: url('/img/click1.png') 8 8, pointer;
 }
 /* Format social media icons */
 .tf-social {
@@ -48,7 +48,7 @@ a {
 
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: white;
   border-top: none;
 }
 /* Hide download button when generating PDF */
