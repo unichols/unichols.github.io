@@ -3,7 +3,7 @@
     "name": "Ursula Nichols",
     "label": "Computer Science Student & IT Professional",
     "picture": "https://github.com/unichols.png",
-    "email": "unichols@hawaii.edu",
+    "email": "ursulanichols0@gmail.com",
     "phone": "808-388-3787",
     "website": "https://unichols.github.io",
     "summary": "Aspiring computer scientist with a strong foundation in programming, IT support, and web development, graduating in Fall 2024 with a B.S. in Computer Science from the University of Hawaiʻi. Dedicated to leveraging technology for innovative problem-solving and sustainability initiatives.",
@@ -47,6 +47,7 @@
       "institution": "Kapiʻolani Community College, Honolulu, HI",
       "area": "Computer Science",
       "studyType": "A.S.",
+      "startDate": "2021",
       "endDate": "2023"
     }
   ],
