@@ -54,6 +54,7 @@ a {
 /* Hide download button when generating PDF */
 .pdf-styles .pdf-download-btn {
   display: none;
+  cursor: url('/img/click1.png') 8 8, pointer !important;
 }
 
 /* Smaller link styling for email and social links in PDF */
