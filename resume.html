@@ -302,23 +302,40 @@ layout: home
 
 <script>
   function downloadPDF() {
-    
-    const element = document.body; // or specify a specific container, like document.querySelector('.container')
+  const element = document.body; // or specify a specific container, like document.querySelector('.container')
 
-    // Add PDF-specific styling
-    element.classList.add('pdf-styles');
+  // Add PDF-specific styling
+  element.classList.add('pdf-styles');
 
-    // Generate the PDF with html2pdf
-    html2pdf(element, {
-      margin: 0.2,
-      filename: 'resume.pdf',
-      image: { type: 'jpeg', quality: 1 },
-      html2canvas: { scale: 2 ,useCORS: true}, // Adjust scale for fitting on one page
-      jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
-    }).then(() => {
-      // Remove PDF-specific styling after download
-      element.classList.remove('pdf-styles');
+  // Add section separators (dotted lines)
+  const sections = document.querySelectorAll('h1.display-6'); // Adjust to match your headings
+  sections.forEach((section) => {
+    // Create a dotted line after each section
+    const dottedLine = document.createElement('hr');
+    dottedLine.style.border = 'none';
+    dottedLine.style.borderTop = '1px dotted black';
+    dottedLine.style.margin = '10px 0';
+    section.parentElement.appendChild(dottedLine);
+  });
+
+  // Generate the PDF with html2pdf
+  html2pdf(element, {
+    margin: 0.2,
+    filename: 'resume.pdf',
+    image: { type: 'jpeg', quality: 1 },
+    html2canvas: { scale: 2, useCORS: true }, // Adjust scale for fitting on one page
+    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
+  }).then(() => {
+    // Remove PDF-specific styling after download
+    element.classList.remove('pdf-styles');
+
+    // Remove the dynamically added dotted lines
+    sections.forEach((section) => {
+      const dottedLine = section.parentElement.querySelector('hr');
+      if (dottedLine) dottedLine.remove();
     });
-  }
+  });
+}
+
 </script>
 
