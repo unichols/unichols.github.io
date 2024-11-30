@@ -59,7 +59,7 @@ a {
 /* Smaller link styling for email and social links in PDF */
 .pdf-styles .small-link {
   font-size: 8px; /* Smaller font for PDF links */
-  color: black;
+  color: black !important;
 }
 .navbar-nav .nav-link:hover {
     color: #333;
