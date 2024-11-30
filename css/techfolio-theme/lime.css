@@ -206,5 +206,5 @@ body:not(.pdf-styles) .social-link-resume span {
 }
 /* Hide all SVG icons inside the social link sections */
 .col.text-center .tf-social {
-  display: none;
+  display: visible;
 }
