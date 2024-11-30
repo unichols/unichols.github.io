@@ -195,7 +195,7 @@ a {
   opacity: 1;
 }
 
-.social-link-resume span {
+body:not(.pdf-styles) .social-link-resume span {
   color: #333;
   font-weight: normal;
   font-size: 14px;
