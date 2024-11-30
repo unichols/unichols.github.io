@@ -170,7 +170,7 @@ a {
 }
 
 .social-link-home .tooltip-one {
-  visibility: hidden;
+  /*visibility: hidden;*/
   background-color: #ffecf2 !important;
   color: #e0f2df !important;
   text-align: center;
