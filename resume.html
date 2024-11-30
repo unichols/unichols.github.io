@@ -41,7 +41,7 @@ layout: home
           {% capture url %}{{ profile.url }}{% endcapture %}
           {% capture name %}{{ profile.network | downcase }}{% endcapture %}
           {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1 small-link">{% include about/social.html url=url name=name label=label %}</p>
+          <p class="mb-1 small-link .pdf-download-btn">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
          
 </div>
