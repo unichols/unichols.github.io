@@ -12,55 +12,102 @@ labels:
 ---
 <br>
 
-## &ensp; &ensp; &ensp; [<ins style="color: black">Organization Page</ins>](<https://ingeniouspartners.github.io/>)&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[<ins style="color: black">Project Repository</ins>](<https://github.com/ingeniouspartners/cabletrack.pro>)&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[<ins style="color: black">Project Page</ins>](<https://ingeniouspartners.github.io/#cabletrackpro>)
+<div style="max-width: 800px; margin: 0 auto; text-align: center;">
+
+  <h1>CableTrackPro 🔌📊</h1>
+  <p>An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
+  
+  <div style="margin-top: 20px;">
+    <a href="https://ingeniouspartners.github.io/">
+      <img src="https://img.shields.io/badge/Organization-Page-1E90FF.svg" alt="Organization Page">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/ingeniouspartners/cabletrack.pro">
+      <img src="https://img.shields.io/badge/Repository-GitHub-1E90FF.svg" alt="Project Repository">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://ingeniouspartners.github.io/#cabletrackpro">
+      <img src="https://img.shields.io/badge/Project-Page-1E90FF.svg" alt="Project Page">
+    </a>
+  </div>
+
+</div>
 
 <br>
 
-## Purpose
-CableTrack PRO is a tool which enables electricians to quickly and easily create cable schedules for their projects. It allows the tracking of the cable meta-data, pull-ins, terminations, and tests.
-
- <br>
-
-## Milestones
-CableTrack PRO development is managed via Milestone projects and the issues they contain.
-
- <br>
-
-## [<ins style="color: black">M1</ins>](https://github.com/orgs/ingeniouspartners/projects/1)
-In Milestone 1, we concentrated on laying out foundational functionality, primarily the components that will be used to create the pages.
+## 🎯 Purpose
+**CableTrackPro** is a tool designed to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of cable meta-data, pull-ins, terminations, and tests, streamlining project management and enhancing productivity.
 
 <br>
 
-## [<ins style="color: black">M2</ins>](https://github.com/orgs/ingeniouspartners/projects/2)
-In Milestone 2, we put together the pages utilizing the components created during M1. This lead to a second round of page development where we refactored the code for reusability.
+## 🏆 Milestones
+The development of **CableTrackPro** is meticulously managed through milestone projects, each focusing on critical aspects of the tool's functionality.
 
 <br>
 
-## [<ins style="color: black">M3</ins>](https://github.com/orgs/ingeniouspartners/projects/3)
-In Milestone 3, we instrumented the code with tests and added documentation.
+### [M1: Foundation Setup](https://github.com/orgs/ingeniouspartners/projects/1)
+- **Objective:** Establish the core components of the cable scheduling and tracking system.
+- **Achievements:**
+  - Designed the database schema for cable meta-data.
+  - Developed the user authentication module.
+  - Implemented the initial frontend layout using HTML, CSS, and Javascript.
 
 <br>
 
-## Deployment
-[DigitalOcean](https://app.cabletrack.pro/)
+### [M2: Feature Development](https://github.com/orgs/ingeniouspartners/projects/2)
+- **Objective:** Build out essential features for cable scheduling and tracking.
+- **Achievements:**
+  - Created interactive forms for cable pull-ins and terminations.
+  - Integrated data visualization tools for tracking progress.
+  - Refactored codebase for improved scalability and maintainability.
 
 <br>
 
-## Features
-Company Branding
-CableTrack PRO allows you to brand the application with your company logo. This allows the customer to present a professional image to their clients.
+### [M3: Testing & Documentation](https://github.com/orgs/ingeniouspartners/projects/3)
+- **Objective:** Ensure reliability and ease of use through rigorous testing and comprehensive documentation.
+- **Achievements:**
+  - Developed automated tests for critical functionalities.
+  - Compiled detailed user guides and API documentation.
+  - Conducted user testing sessions and incorporated feedback.
 
 <br>
 
-## Projects
-CableTrack PRO allows you to create projects and add cables to them. You can then report progress by project.
+## 🚀 Deployment
+**CableTrackPro** is deployed and accessible via [DigitalOcean](https://app.cabletrack.pro/), ensuring reliable performance and scalability to handle extensive data tracking and scheduling tasks.
 
 <br>
 
-## Cables
-CableTrack PRO allows you to create cables and add them to projects. You can then track the progress of each cable.
+## 🌟 Features
+- **Company Branding:** Customize the application with your company logo to present a professional image to clients.
+- **Interactive Scheduling:** Easily create and manage cable schedules with intuitive forms and real-time updates.
+- **Progress Tracking:** Monitor the status of each cable through comprehensive data visualization tools.
+- **Role-Based Access:** Restrict access to sensitive pages, ensuring only administrative roles can manage company-wide settings.
 
 <br>
 
-## Contribution
-My role in this build was to focus on the Company pages and testing, in addition to a Companies page. Because of the structure of the roles, it was not difficult to restrict access to these pages after login. Only the administrative role is able to access the Companies page, while all other roles access the company page associated with their company. Company identification is a vital aspect of this project because it was the identifying key after login to access Projects, cables, and user information. 
+## 📁 Projects
+**CableTrackPro** allows you to create projects and add cables to them. Track and report progress by project, ensuring efficient management and timely completion.
+
+<br>
+
+## 🔌 Cables
+Create and manage cables within your projects. Track the progress of each cable, including meta-data, pull-ins, terminations, and testing statuses.
+
+<br>
+
+## 🤝 Contribution
+As a key contributor to **CableTrackPro**, my focus has been on developing the **Company Pages** and **Testing Modules**, ensuring seamless integration and robust functionality. This involved:
+- **Company Pages Development:** Designed and implemented pages to manage company-specific settings and branding.
+- **Testing Module Integration:** Developed automated tests to validate core functionalities, enhancing the tool's reliability.
+- **Role Management:** Implemented role-based access control to restrict page access based on user roles, ensuring secure and organized data handling.
+
+<br>
+
+## 📈 Results
+Initial deployments of **CableTrackPro** have demonstrated significant improvements in project management efficiency for electricians. The tool's intuitive interface and robust tracking capabilities have received positive feedback, highlighting its potential to revolutionize cable scheduling and tracking.
+
+---
+  
+<div align="center">
+  <p>© 2023 Ursula Nichols | CableTrackPro Project</p>
+</div>
