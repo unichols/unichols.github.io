@@ -42,20 +42,20 @@ labels:
 
 ## 🎯 Purpose
 <div class="container1">
-**CableTrackPro** is a tool designed to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of cable meta-data, pull-ins, terminations, and tests, streamlining project management and enhancing productivity.
+CableTrackPro is a tool designed to enable electricians to quickly and easily create cable schedules for their projects. It allows the tracking of cable meta-data, pull-ins, terminations, and tests, streamlining project management and enhancing productivity.
 </div>
 <br>
 
 ## 🏆 Milestones
 <div class="container1">
-The development of **CableTrackPro** is meticulously managed through milestone projects, each focusing on critical aspects of the tool's functionality.
+The development of CableTrackPro is meticulously managed through milestone projects, each focusing on critical aspects of the tool's functionality.
 </div>
 <br>
 
 ### [M1: Foundation Setup](https://github.com/orgs/ingeniouspartners/projects/1)
 <div class="container1">
-- **Objective:** Establish the core components of the cable scheduling and tracking system.
-- **Achievements:**
+- Objective: Establish the core components of the cable scheduling and tracking system.
+- Achievements:
   - Designed the database schema for cable meta-data.
   - Developed the user authentication module.
   - Implemented the initial frontend layout using HTML, CSS, and Javascript.
@@ -64,8 +64,8 @@ The development of **CableTrackPro** is meticulously managed through milestone p
 
 ### [M2: Feature Development](https://github.com/orgs/ingeniouspartners/projects/2)
 <div class="container1">
-- **Objective:** Build out essential features for cable scheduling and tracking.
-- **Achievements:**
+- Objective: Build out essential features for cable scheduling and tracking.
+- Achievements:
   - Created interactive forms for cable pull-ins and terminations.
   - Integrated data visualization tools for tracking progress.
   - Refactored codebase for improved scalability and maintainability.
