@@ -24,15 +24,13 @@ labels:
     <a style="margin-left: 170px;" href="https://github.com/unichols/Pelagic-Pixels"><img src="https://img.shields.io/badge/Repository-GitHub-e0f2df.svg" alt="Project Repository"></a>
 </div>
 <br>
-<div class="heading-bg">
- <h1> 🎯 Purpose</h1>
-</div>
+
+##🎯 Purpose
+
 <div class="col-lg-9 container1">
 Pelagic Pixels is a cutting-edge synthetic data generation pipeline designed to address the scarcity of real-world data for marine object detection. By combining 3D model animations with authentic underwater footage, Pelagic Pixels enables the training of AI models to accurately identify rare and protected marine species, such as sea turtles, rays, and sharks, in an ethical and scalable manner.
 </div>
-<div class="heading-bg">
- <h1>🏆 Milestones</h1>
-</div>
+##🏆 Milestone
 <div class="col-lg-9 container1">
 Our project development is meticulously managed through milestone projects, each focusing on critical aspects of the pipeline.
 </div>
