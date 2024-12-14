@@ -18,7 +18,7 @@ labels:
     border-radius: 8px;
   }
   </style>
-<h1 style="margin-left: 140px;">• 🌊˖°𓇼⋆🐋🐚 𓈒🫧˚</h1>
+<h1 style="margin-left: 100px;">• 🌊˖°𓇼⋆🐋🐚 𓈒🫧˚</h1>
 <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
 <div>
     <a style="margin-left: 170px;" href="https://github.com/unichols/Pelagic-Pixels"><img src="https://img.shields.io/badge/Repository-GitHub-e0f2df.svg" alt="Project Repository"></a>
