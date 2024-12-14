@@ -2,6 +2,7 @@
 layout: project
 type: project
 image: img/PelagicPixels.png
+title: Pelagic Pixels
 date: 2024-12-12
 published: true
 theme: jekyll-theme-architect
