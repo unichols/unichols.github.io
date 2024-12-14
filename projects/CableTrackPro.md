@@ -10,22 +10,29 @@ labels:
   - Educational Technology
   - Javascript
 ---
-<br>
+<style>
+  .container1 {
+    background-color: #e0f2df;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  </style>
 
+<br>
   <h1 style="margin-left: 200px;">🔌📊</h1>
   <p style="margin-left: 30px;">An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
   <div style="margin-top: 20px; margin-left: 70px;">
     <a href="https://ingeniouspartners.github.io/">
-      <img src="https://img.shields.io/badge/Organization-Page-1E90FF.svg" alt="Organization Page">
+      <img src="https://img.shields.io/badge/Organization-Page-e0f2df.svg" alt="Organization Page">
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/ingeniouspartners/cabletrack.pro">
-      <img src="https://img.shields.io/badge/Repository-GitHub-1E90FF.svg" alt="Project Repository">
+      <img src="https://img.shields.io/badge/Repository-GitHub-e0f2df.svg" alt="Project Repository">
     </a>
     &nbsp;&nbsp;
     <a href="https://ingeniouspartners.github.io/#cabletrackpro">
-      <img src="https://img.shields.io/badge/Project-Page-1E90FF.svg" alt="Project Page">
+      <img src="https://img.shields.io/badge/Project-Page-e0f2df.svg" alt="Project Page">
     </a>
   </div>
 
