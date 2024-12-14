@@ -60,11 +60,6 @@ Our project development is meticulously managed through milestone projects, each
 
 <br>
 
-## 📁 Projects
-Create and manage multiple projects within **Pelagic Pixels**, allowing you to add and track cables with ease. Each project provides comprehensive reporting tools to monitor progress and performance.
-
-<br>
-
 ## 🤝 Contribution
 As a key contributor to **Pelagic Pixels**, my focus has been on developing the augmentation module and ensuring seamless integration with underwater footage. This involved:
 - **Augmentation Development:** Implemented randomized adjustments for lighting, color, and size to enhance data realism.
