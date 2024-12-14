@@ -12,14 +12,13 @@ labels:
   - AI Training
 ---
 
-<div align="center">
-  <h1>🌊🐢🦈</h1>
-  <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
-  
-  <div>
+
+<h1>🌊🐢🦈</h1>
+<p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
+<div>
     <a href="https://github.com/unichols/Pelagic-Pixels"><img src="https://img.shields.io/badge/Repository-GitHub-e0f2df.svg" alt="Project Repository"></a>
-  </div>
 </div>
+
 
 <br>
 
