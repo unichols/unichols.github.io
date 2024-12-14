@@ -12,7 +12,7 @@ labels:
 ---
 <br>
 
-  <h1 style="margin-left: 170px;">🔌📊</h1>
+  <h1 style="margin-left: 200px;">🔌📊</h1>
   <p>An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
   <div style="margin-top: 20px; margin-left: 100px;">
