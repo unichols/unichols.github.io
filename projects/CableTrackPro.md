@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Cable.png
+image: img/Cable1.jpeg
 title: "CableTrackPro"
 date: 2023-12-12
 published: true
