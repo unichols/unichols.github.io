@@ -11,7 +11,12 @@ labels:
   - Synthetic Data
   - AI Training
 ---
-
+<style>
+  .container1 {
+    background-color: #e0f2df;
+    padding: 20px;
+    border-radius: 8px;
+  }
 
 <h1 style="margin-left: 170px;">🌊🐢🦈</h1>
 <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
