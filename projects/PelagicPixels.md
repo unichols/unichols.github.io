@@ -16,7 +16,7 @@ labels:
   <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
   
   <div>
-    <a href="https://github.com/pelagic-pixels"><img src="https://img.shields.io/badge/Repository-GitHub-4FA64F.svg" alt="Project Repository"></a>
+    <a href="https://github.com/pelagic-pixels"><img src="https://img.shields.io/badge/Repository-GitHub-e0f2df.svg" alt="Project Repository"></a>
   </div>
 </div>
 
