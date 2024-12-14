@@ -19,7 +19,7 @@ labels:
   </style>
 
 <br>
-  <h1 style="margin-left: 150px;">‧₊˚🖇️✩ᝰ๋࣭𝜗᭡₊˚⊹♡</h1>
+  <h1 style="margin-left: 100px;">‧₊˚🖇️✩ᝰ๋࣭𝜗᭡₊˚⊹♡</h1>
   <p style="margin-left: 30px;">An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
   <div style="margin-top: 20px; margin-left: 70px;">
