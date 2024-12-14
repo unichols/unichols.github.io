@@ -27,31 +27,34 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-          - uses: limitusus/json-syntax-check@v1
-          with:
-            pattern: "\\bio.json$"
 
-      # 3. Setup Ruby
+      # 3. JSON Syntax Check (Optional)
+      - name: JSON Syntax Check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\bio.json$"
+
+      # 4. Setup Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
 
-      # 4. Install Dependencies
+      # 5. Install Dependencies
       - name: Install Dependencies
         run: bundle install
 
-      # 5. Build with Jekyll
+      # 6. Build with Jekyll
       - name: Build with Jekyll
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
-      # 6. Upload Pages Artifact
+      # 7. Upload Pages Artifact
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
 
-      # 7. Deploy to GitHub Pages
+      # 8. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
