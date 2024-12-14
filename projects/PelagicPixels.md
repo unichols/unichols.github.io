@@ -39,8 +39,8 @@ Our project development is meticulously managed through milestone projects, each
 
 ### M1: Foundation Setup
 <div class="col-lg-9 container1">
-- **Objective:** Establish the core components of the synthetic data generation pipeline.
-- **Achievements:**
+- Objective: Establish the core components of the synthetic data generation pipeline.
+- Achievements:
   - Acquired high-quality 3D models of marine species.
   - Developed animation modules to simulate natural behaviors.
   - Integrated basic underwater footage into the pipeline.
@@ -48,8 +48,8 @@ Our project development is meticulously managed through milestone projects, each
 
 ### M2: Dataset Expansion
 <div class="col-lg-9 container1">
-- **Objective:** Enhance dataset diversity and realism.
-- **Achievements:**
+- Objective: Enhance dataset diversity and realism.
+- Achievements:
   - Implemented randomized augmentations for model placement, size, lighting, and color.
   - Expanded the dataset to include varied environmental conditions.
   - Refactored code for improved reusability and scalability.
@@ -57,8 +57,8 @@ Our project development is meticulously managed through milestone projects, each
 
 ### M3: Testing & Documentation
 <div class="col-lg-9 container1">
-- **Objective:** Ensure pipeline reliability and transparency.
-- **Achievements:**
+- Objective: Ensure pipeline reliability and transparency.
+- Achievements:
   - Added comprehensive documentation for pipeline usage.
   - Integrated testing with YOLOv5 to validate data integrity.
   - Identified and addressed synthetic-to-real domain gaps.
@@ -67,18 +67,18 @@ Our project development is meticulously managed through milestone projects, each
 
 ## 🌟 Features
 <div class="col-lg-9 container1">
-- **Ethical Data Collection:** Leverages synthetic data to eliminate the need for intrusive real-world data collection of protected species.
-- **Advanced Augmentation:** Incorporates variations in lighting, orientation, size, and color to create a robust and diverse dataset.
-- **Scalability:** Designed to generate large-scale datasets efficiently, facilitating extensive AI training without ethical concerns.
+- Ethical Data Collection: Leverages synthetic data to eliminate the need for intrusive real-world data collection of protected species.
+- Advanced Augmentation: Incorporates variations in lighting, orientation, size, and color to create a robust and diverse dataset.
+- Scalability: Designed to generate large-scale datasets efficiently, facilitating extensive AI training without ethical concerns.
 </div>
 <br>
 
 ## 🤝 Contribution
 <div class="col-lg-9 container1">
-As a key contributor to **Pelagic Pixels**, my focus has been on developing the augmentation module and ensuring seamless integration with underwater footage. This involved:
-- **Augmentation Development:** Implemented randomized adjustments for lighting, color, and size to enhance data realism.
-- **Integration:** Merged species-specific animations with diverse underwater environments.
-- **Automation:** Developed automated process for generating large amounts of synthetic data.
+As a key contributor to Pelagic Pixels, my focus has been on developing the augmentation module and ensuring seamless integration with footage. This involved:
+- Augmentation Development: Implemented randomized adjustments for lighting, color, and size to enhance data realism.
+- Integration: Merged species-specific animations with diverse underwater environments.
+- Automation: Developed automated process for generating large amounts of synthetic data.
 
 This role required both technical expertise and a commitment to ethical data practices, ensuring that our pipeline remains both effective and responsible.
 </div>
