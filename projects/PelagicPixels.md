@@ -37,8 +37,7 @@ Pelagic Pixels is a cutting-edge synthetic data generation pipeline designed to 
 Our project development is meticulously managed through milestone projects, each focusing on critical aspects of the pipeline.
 </div>
 
-### [M1: Foundation Setup](https://github.com/orgs/uhmanoa/projects/1)
-
+### M1: Foundation Setup
 <div class="col-lg-9 container1">
 - **Objective:** Establish the core components of the synthetic data generation pipeline.
 - **Achievements:**
@@ -47,7 +46,7 @@ Our project development is meticulously managed through milestone projects, each
   - Integrated basic underwater footage into the pipeline.
 </div>
 
-### [M2: Dataset Expansion](https://github.com/orgs/uhmanoa/projects/2)
+### M2: Dataset Expansion
 <div class="col-lg-9 container1">
 - **Objective:** Enhance dataset diversity and realism.
 - **Achievements:**
@@ -56,7 +55,7 @@ Our project development is meticulously managed through milestone projects, each
   - Refactored code for improved reusability and scalability.
 </div>
 
-### [M3: Testing & Documentation](https://github.com/orgs/uhmanoa/projects/3)
+### M3: Testing & Documentation
 <div class="col-lg-9 container1">
 - **Objective:** Ensure pipeline reliability and transparency.
 - **Achievements:**
