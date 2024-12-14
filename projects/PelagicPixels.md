@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Cable.png
-title: "Pelagic Pixels"
+title: "CableTrackPro"
 date: 2023-12-12
 published: true
 theme: jekyll-theme-architect
