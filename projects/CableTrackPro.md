@@ -13,7 +13,7 @@ labels:
 <br>
 
   <h1 style="margin-left: 200px;">🔌📊</h1>
-  <p style="margin-left: 70px;">An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
+  <p style="margin-left: 30px;">An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
   <div style="margin-top: 20px; margin-left: 70px;">
     <a href="https://ingeniouspartners.github.io/">
