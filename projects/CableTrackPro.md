@@ -54,11 +54,11 @@ The development of CableTrackPro is meticulously managed through milestone proje
 
 ### [M1: Foundation Setup](https://github.com/orgs/ingeniouspartners/projects/1)
 <div class="container1">
-- Objective: Establish the core components of the cable scheduling and tracking system.
-- Achievements:
-  - Designed the database schema for cable meta-data.
-  - Developed the user authentication module.
-  - Implemented the initial frontend layout using HTML, CSS, and Javascript.
+- Objective: Establish the core components of the cable scheduling and tracking system. <br> 
+- Achievements: <br> 
+  - Designed the database schema for cable meta-data. <br> 
+  - Developed the user authentication module. <br> 
+  - Implemented the initial frontend layout using HTML, CSS, and Javascript. 
 </div>
 <br>
 
