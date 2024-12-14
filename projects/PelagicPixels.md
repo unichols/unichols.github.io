@@ -64,7 +64,7 @@ Our project development is meticulously managed through milestone projects, each
 As a key contributor to **Pelagic Pixels**, my focus has been on developing the augmentation module and ensuring seamless integration with underwater footage. This involved:
 - **Augmentation Development:** Implemented randomized adjustments for lighting, color, and size to enhance data realism.
 - **Integration:** Merged species-specific animations with diverse underwater environments.
-- **Automation:** Developed automated bounding box annotations to streamline species detection tasks.
+- **Automation:** Developed automated process for generating large amounts of synthetic data.
 
 This role required both technical expertise and a commitment to ethical data practices, ensuring that our pipeline remains both effective and responsible.
 
