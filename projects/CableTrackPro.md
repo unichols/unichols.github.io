@@ -64,20 +64,20 @@ The development of CableTrackPro is meticulously managed through milestone proje
 
 ### [M2: Feature Development](https://github.com/orgs/ingeniouspartners/projects/2)
 <div class="container1">
-- Objective: Build out essential features for cable scheduling and tracking.
-- Achievements:
-  - Created interactive forms for cable pull-ins and terminations.
-  - Integrated data visualization tools for tracking progress.
+- Objective: Build out essential features for cable scheduling and tracking. <br> 
+- Achievements:<br> 
+  - Created interactive forms for cable pull-ins and terminations.<br> 
+  - Integrated data visualization tools for tracking progress.<br> 
   - Refactored codebase for improved scalability and maintainability.
 </div>
 <br>
 
 ### [M3: Testing & Documentation](https://github.com/orgs/ingeniouspartners/projects/3)
 <div class="container1">
-- Objective: Ensure reliability and ease of use through rigorous testing and comprehensive documentation.
-- Achievements:
-  - Developed automated tests for critical functionalities.
-  - Compiled detailed user guides and API documentation.
+- Objective: Ensure reliability and ease of use through rigorous testing and comprehensive documentation.<br> 
+- Achievements:<br> 
+  - Developed automated tests for critical functionalities.<br> 
+  - Compiled detailed user guides and API documentation.<br> 
   - Conducted user testing sessions and incorporated feedback.
 </div>
 <br>
@@ -91,9 +91,9 @@ CableTrackPro is deployed and accessible via [DigitalOcean](https://app.cabletra
 
 ## 🌟 Features
 <div class="container1">
-- Company Branding: Customize the application with your company logo to present a professional image to clients.
-- Interactive Scheduling: Easily create and manage cable schedules with intuitive forms and real-time updates.
-- Progress Tracking: Monitor the status of each cable through comprehensive data visualization tools.
+- Company Branding: Customize the application with your company logo to present a professional image to clients.<br> 
+- Interactive Scheduling: Easily create and manage cable schedules with intuitive forms and real-time updates.<br> 
+- Progress Tracking: Monitor the status of each cable through comprehensive data visualization tools.<br> 
 - Role-Based Access: Restrict access to sensitive pages, ensuring only administrative roles can manage company-wide settings.
 </div>
 <br>
@@ -112,9 +112,9 @@ Create and manage cables within your projects. Track the progress of each cable,
 
 ## 🤝 Contribution
 <div class="container1">
-As a key contributor to CableTrackPro, my focus has been on developing the Company Pages and Testing Modules ensuring seamless integration and robust functionality. This involved:
-- Company Pages Development: Designed and implemented pages to manage company-specific settings and branding.
-- Testing Module Integration: Developed automated tests to validate core functionalities, enhancing the tool's reliability.
+As a key contributor to CableTrackPro, my focus has been on developing the Company Pages and Testing Modules ensuring seamless integration and robust functionality. This involved:<br> 
+- Company Pages Development: Designed and implemented pages to manage company-specific settings and branding.<br> 
+- Testing Module Integration: Developed automated tests to validate core functionalities, enhancing the tool's reliability.<br> 
 - Role Management: Implemented role-based access control to restrict page access based on user roles, ensuring secure and organized data handling.
 </div>
 <br>
