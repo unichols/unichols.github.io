@@ -11,77 +11,78 @@ labels:
   - Synthetic Data
   - AI Training
 ---
-<br>
 
-## &ensp; &ensp; &ensp; [<ins style="color: black">Organization Page</ins>](<https://universityofhawaii.edu/>)&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[<ins style="color: black">Project Repository</ins>](<https://github.com/uhmanoa/pelagic-pixels>)&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[<ins style="color: black">Project Page</ins>](<https://universityofhawaii.github.io/#pelagicpixels>)
-
-<br>
-
-## Purpose
-Pelagic Pixels is a synthetic data generation pipeline aimed at addressing the scarcity of real-world data for marine object detection. It combines 3D model animations with real-world footage to train AI models for identifying rare and protected marine species, such as sea turtles, rays, and sharks, in an ethical and scalable manner.
-
-<br>
-
-## Milestones
-The Pelagic Pixels project is structured into milestones focusing on various aspects of the data generation pipeline and its application.
+<div align="center">
+  <h1>Pelagic Pixels 🌊🐢🦈</h1>
+  <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
+  
+  <div>
+    <a href="https://universityofhawaii.github.io/"><img src="https://img.shields.io/badge/Organization-Page-blue.svg" alt="Organization Page"></a>
+    <a href="https://github.com/uhmanoa/pelagic-pixels"><img src="https://img.shields.io/badge/Repository-GitHub-blue.svg" alt="Project Repository"></a>
+    <a href="https://universityofhawaii.github.io/#pelagicpixels"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
+  </div>
+</div>
 
 <br>
 
-## [<ins style="color: black">M1</ins>](https://github.com/orgs/uhmanoa/projects/1)
-Focused on building the synthetic data generation pipeline, including 3D model acquisition, animation, and integration with underwater footage.
+## 🎯 Purpose
+**Pelagic Pixels** is a cutting-edge synthetic data generation pipeline designed to address the scarcity of real-world data for marine object detection. By combining 3D model animations with authentic underwater footage, Pelagic Pixels enables the training of AI models to accurately identify rare and protected marine species, such as sea turtles, rays, and sharks, in an ethical and scalable manner.
 
 <br>
 
-## [<ins style="color: black">M2</ins>](https://github.com/orgs/uhmanoa/projects/2)
-Expanded the dataset with randomized augmentations for model placement, size, lighting, and color adjustments to enhance realism and variability.
+## 🏆 Milestones
+Our project development is meticulously managed through milestone projects, each focusing on critical aspects of the pipeline.
+
+### [M1: Foundation Setup](https://github.com/orgs/uhmanoa/projects/1)
+- **Objective:** Establish the core components of the synthetic data generation pipeline.
+- **Achievements:**
+  - Acquired high-quality 3D models of marine species.
+  - Developed animation modules to simulate natural behaviors.
+  - Integrated basic underwater footage into the pipeline.
+
+### [M2: Dataset Expansion](https://github.com/orgs/uhmanoa/projects/2)
+- **Objective:** Enhance dataset diversity and realism.
+- **Achievements:**
+  - Implemented randomized augmentations for model placement, size, lighting, and color.
+  - Expanded the dataset to include varied environmental conditions.
+  - Refactored code for improved reusability and scalability.
+
+### [M3: Testing & Documentation](https://github.com/orgs/uhmanoa/projects/3)
+- **Objective:** Ensure pipeline reliability and transparency.
+- **Achievements:**
+  - Added comprehensive documentation for pipeline usage.
+  - Integrated automated testing to validate data integrity.
+  - Identified and addressed synthetic-to-real domain gaps.
 
 <br>
 
-## [<ins style="color: black">M3</ins>](https://github.com/orgs/uhmanoa/projects/3)
-Instrumented the pipeline with automated annotations for YOLOv5 training, conducted testing, and documented findings on the synthetic-to-real domain gap.
+## 🌟 Features
+- **Ethical Data Collection:** Leverages synthetic data to eliminate the need for intrusive real-world data collection of protected species.
+- **Advanced Augmentation:** Incorporates variations in lighting, orientation, size, and color to create a robust and diverse dataset.
+- **Scalability:** Designed to generate large-scale datasets efficiently, facilitating extensive AI training without ethical concerns.
 
 <br>
 
-## Dataset
-The dataset comprises 1,600 synthetic images annotated for species detection tasks:
-- **Training set**: 1,280 images
-- **Validation set**: 320 images
-
-Annotations include bounding boxes and species labels, formatted for compatibility with YOLOv5. Environmental diversity and species representation are key features.
+## 📁 Projects
+Create and manage multiple projects within **Pelagic Pixels**, allowing you to add and track cables with ease. Each project provides comprehensive reporting tools to monitor progress and performance.
 
 <br>
 
-## Features
-- **Ethical Data Collection**: Utilizes 3D models and public footage, eliminating the need for intrusive real-world data collection.
-- **Augmentation**: Integrates realistic variations in lighting, orientation, and size for robust AI training.
-- **Scalability**: Enables large-scale dataset generation for rare marine species.
+## 🤝 Contribution
+As a key contributor to **Pelagic Pixels**, my focus has been on developing the augmentation module and ensuring seamless integration with underwater footage. This involved:
+- **Augmentation Development:** Implemented randomized adjustments for lighting, color, and size to enhance data realism.
+- **Integration:** Merged species-specific animations with diverse underwater environments.
+- **Automation:** Developed automated bounding box annotations to streamline species detection tasks.
+
+This role required both technical expertise and a commitment to ethical data practices, ensuring that our pipeline remains both effective and responsible.
 
 <br>
 
-## Results
-Initial testing with YOLOv5 highlighted limitations in detecting real-world marine species due to synthetic-to-real domain gaps. Future improvements include advanced blending techniques and domain randomization.
+## 📈 Results
+Initial testing with YOLOv5 highlighted the effectiveness of synthetic data in recognizing specific marine species. However, addressing the synthetic-to-real domain gap remains a priority for improving model generalization to real-world scenarios.
 
-<br>
+---
 
-## Contribution
-I focused on developing the augmentation module of the pipeline, including:
-- Randomizing lighting, color, and size adjustments to enhance realism.
-- Integrating species-specific animations with underwater footage.
-- Automating bounding box annotations for species detection.
-
-This role involved both technical development and ensuring alignment with ethical data collection standards.
-
-<br>
-
-## Deployment
-[Hosted Application](https://pelagicpixels.app)
-
-<br>
-
-## Future Directions
-1. Improve synthetic-to-real domain adaptation.
-2. Expand species diversity in 3D models and animations.
-3. Incorporate limited real-world data for model fine-tuning.
-4. Explore transformer architectures for enhanced detection.
-
-<br>
+<div align="center">
+  <p>© 2024 Ursula Nichols | Pelagic Pixels Project</p>
+</div>
