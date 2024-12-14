@@ -15,7 +15,7 @@ labels:
   <h1 style="margin-left: 170px;">🔌📊</h1>
   <p>An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
-  <div style="margin-top: 20px; margin-left: 20px;">
+  <div style="margin-top: 20px; margin-left: 100px;">
     <a href="https://ingeniouspartners.github.io/">
       <img src="https://img.shields.io/badge/Organization-Page-1E90FF.svg" alt="Organization Page">
     </a>
