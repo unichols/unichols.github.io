@@ -84,7 +84,7 @@ The development of CableTrackPro is meticulously managed through milestone proje
 
 ## 🚀 Deployment
 <div class="container1">
-CableTrackPro is deployed and accessible via [DigitalOcean](https://app.cabletrack.pro/), ensuring reliable performance and scalability to handle extensive data tracking and scheduling tasks.
+CableTrackPro is deployed and accessible via DigitalOcean, ensuring reliable performance and scalability to handle extensive data tracking and scheduling tasks.
 </div>
 
 <br>
