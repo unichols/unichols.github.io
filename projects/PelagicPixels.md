@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/PelagicPixels.png
-title: style="text-align: center;" Pelagic Pixels
+title: Pelagic Pixels
 date: 2024-12-12
 published: true
 theme: jekyll-theme-architect
