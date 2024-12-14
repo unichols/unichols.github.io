@@ -14,7 +14,7 @@ labels:
 
 <div style="max-width: 800px; margin: 0 auto; text-align: center;">
 
-  <h1>CableTrackPro 🔌📊</h1>
+  <h1>🔌📊</h1>
   <p>An Intuitive Cable Scheduling and Tracking Tool for Electricians</p>
   
   <div style="margin-top: 20px;">
