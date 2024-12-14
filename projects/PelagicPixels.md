@@ -13,7 +13,7 @@ labels:
 ---
 
 <div align="center">
-  <h1>Pelagic Pixels 🌊🐢🦈</h1>
+  <h1>🌊🐢🦈</h1>
   <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
   
   <div>
