@@ -16,9 +16,7 @@ labels:
   <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
   
   <div>
-    <a href="https://universityofhawaii.github.io/"><img src="https://img.shields.io/badge/Organization-Page-blue.svg" alt="Organization Page"></a>
-    <a href="https://github.com/uhmanoa/pelagic-pixels"><img src="https://img.shields.io/badge/Repository-GitHub-blue.svg" alt="Project Repository"></a>
-    <a href="https://universityofhawaii.github.io/#pelagicpixels"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
+    <a href="https://github.com/pelagic-pixels"><img src="https://img.shields.io/badge/Repository-GitHub-blue.svg" alt="Project Repository"></a>
   </div>
 </div>
 
