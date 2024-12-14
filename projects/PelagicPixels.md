@@ -27,36 +27,40 @@ labels:
 
 ### 🎯 Purpose
 
-<div class="col-lg-9 container1">
+<div class="container1">
 Pelagic Pixels is a cutting-edge synthetic data generation pipeline designed to address the scarcity of real-world data for marine object detection. By combining 3D model animations with authentic underwater footage, Pelagic Pixels enables the training of AI models to accurately identify rare and protected marine species, such as sea turtles, rays, and sharks, in an ethical and scalable manner.
 </div>
+<br>
 
 ### 🏆 Milestone
 
-<div class="col-lg-9 container1">
+<div class="container1">
 Our project development is meticulously managed through milestone projects, each focusing on critical aspects of the pipeline.
 </div>
+<br>
 
 ### M1: Foundation Setup
-<div class="col-lg-9 container1">
+<div class="container1">
 - Objective: Establish the core components of the synthetic data generation pipeline.
 - Achievements:
   - Acquired high-quality 3D models of marine species.
   - Developed animation modules to simulate natural behaviors.
   - Integrated basic underwater footage into the pipeline.
 </div>
+<br>
 
 ### M2: Dataset Expansion
-<div class="col-lg-9 container1">
+<div class="container1">
 - Objective: Enhance dataset diversity and realism.
 - Achievements:
   - Implemented randomized augmentations for model placement, size, lighting, and color.
   - Expanded the dataset to include varied environmental conditions.
   - Refactored code for improved reusability and scalability.
 </div>
+<br>
 
 ### M3: Testing & Documentation
-<div class="col-lg-9 container1">
+<div class="container1">
 - Objective: Ensure pipeline reliability and transparency.
 - Achievements:
   - Added comprehensive documentation for pipeline usage.
@@ -66,7 +70,7 @@ Our project development is meticulously managed through milestone projects, each
 <br>
 
 ## 🌟 Features
-<div class="col-lg-9 container1">
+<div class="container1">
 - Ethical Data Collection: Leverages synthetic data to eliminate the need for intrusive real-world data collection of protected species.
 - Advanced Augmentation: Incorporates variations in lighting, orientation, size, and color to create a robust and diverse dataset.
 - Scalability: Designed to generate large-scale datasets efficiently, facilitating extensive AI training without ethical concerns.
@@ -74,7 +78,7 @@ Our project development is meticulously managed through milestone projects, each
 <br>
 
 ## 🤝 Contribution
-<div class="col-lg-9 container1">
+<div class="container1">
 As a key contributor to Pelagic Pixels, my focus has been on developing the augmentation module and ensuring seamless integration with footage. This involved:
 - Augmentation Development: Implemented randomized adjustments for lighting, color, and size to enhance data realism.
 - Integration: Merged species-specific animations with diverse underwater environments.
@@ -85,7 +89,7 @@ This role required both technical expertise and a commitment to ethical data pra
 <br>
 
 ## 📈 Results
-<div class="col-lg-9 container1">
+<div class="container1">
 Initial testing with YOLOv5 highlighted the effectiveness of synthetic data in recognizing specific marine species. However, addressing the synthetic-to-real domain gap remains a priority for improving model generalization to real-world scenarios.
 </div>
 ---
