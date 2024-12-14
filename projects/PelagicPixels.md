@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/PelagicPixels.png
+image: img/Pixels.jpeg
 title: Pelagic Pixels
 date: 2024-12-12
 published: true
