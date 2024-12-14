@@ -61,7 +61,7 @@ Our project development is meticulously managed through milestone projects, each
 - **Objective:** Ensure pipeline reliability and transparency.
 - **Achievements:**
   - Added comprehensive documentation for pipeline usage.
-  - Integrated automated testing to validate data integrity.
+  - Integrated testing with YOLOv5 to validate data integrity.
   - Identified and addressed synthetic-to-real domain gaps.
 </div>
 <br>
