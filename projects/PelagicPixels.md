@@ -17,7 +17,7 @@ labels:
     padding: 20px;
     border-radius: 8px;
   }
-
+  </style>
 <h1 style="margin-left: 170px;">🌊🐢🦈</h1>
 <p>A Synthetic Data Generation Pipeline for Marine Object Detection</p>
 <div>
@@ -29,8 +29,9 @@ labels:
 <div class="heading-bg">
  <h1> 🎯 Purpose</h1>
 </div>
+<div class="col-lg-9 container1">
 **Pelagic Pixels** is a cutting-edge synthetic data generation pipeline designed to address the scarcity of real-world data for marine object detection. By combining 3D model animations with authentic underwater footage, Pelagic Pixels enables the training of AI models to accurately identify rare and protected marine species, such as sea turtles, rays, and sharks, in an ethical and scalable manner.
-<br>
+</div>
 
 ## 🏆 Milestones
 Our project development is meticulously managed through milestone projects, each focusing on critical aspects of the pipeline.
