@@ -67,21 +67,8 @@ Initial testing with YOLOv5 highlighted limitations in detecting real-world mari
 I focused on developing the augmentation module of the pipeline, including:
 - Randomizing lighting, color, and size adjustments to enhance realism.
 - Integrating species-specific animations with underwater footage.
-- Automating bounding box annotations for species detection.
+- Interpolation of these animations over both live and static footage.
 
 This role involved both technical development and ensuring alignment with ethical data collection standards.
-
-<br>
-
-## Deployment
-[Hosted Application](https://pelagicpixels.app)
-
-<br>
-
-## Future Directions
-1. Improve synthetic-to-real domain adaptation.
-2. Expand species diversity in 3D models and animations.
-3. Incorporate limited real-world data for model fine-tuning.
-4. Explore transformer architectures for enhanced detection.
 
 <br>
