@@ -41,10 +41,10 @@ Our project development is meticulously managed through milestone projects, each
 
 ### M1: Foundation Setup
 <div class="container1">
-- Objective: Establish the core components of the synthetic data generation pipeline.
-- Achievements:
-  - Acquired high-quality 3D models of marine species.
-  - Developed animation modules to simulate natural behaviors.
+- Objective: Establish the core components of the synthetic data generation pipeline.<br>
+- Achievements:<br>
+  - Acquired high-quality 3D models of marine species.<br>
+  - Developed animation modules to simulate natural behaviors.<br>
   - Integrated basic underwater footage into the pipeline.
 </div>
 <br>
