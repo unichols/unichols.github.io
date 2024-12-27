@@ -6,7 +6,7 @@
     "email": "ursulanichols0@gmail.com",
     "phone": "808-388-3787",
     "website": "https://unichols.github.io",
-    "summary": "Aspiring computer scientist with a strong foundation in programming, IT support, and web development, graduating in Fall 2024 with a B.S. in Computer Science from the University of Hawaiʻi. Dedicated to leveraging technology for innovative problem-solving and sustainability initiatives.",
+    "summary": "Computer scientist with a strong foundation in programming, IT support, and web development, with a B.S. in Computer Science from the University of Hawaiʻi. Dedicated to leveraging technology for innovative problem-solving and sustainability initiatives.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -37,10 +37,10 @@
   "education": [
     {
       "institution": "University of Hawaiʻi, Honolulu, HI",
-      "area": "Computer Science (Expected Fall 2024)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2023-08-23",
-      "endDate": "Present",
+      "endDate": "2024",
       "courses": []
     },
     {
@@ -68,7 +68,7 @@
       "position": "IT Technician Trainee",
       "website": "http://www.hawaii.edu/its/",
       "startDate": "2022-06-01",
-      "endDate": "Present",
+      "endDate": "2024-12-19",
       "summary": "Provided technical support for students and faculty, troubleshooting software, hardware, and networking issues with a focus on excellent customer service.",
       "highlights": [
         "Successfully diagnosed and resolved complex technical issues to ensure seamless IT support for end users."
@@ -78,7 +78,7 @@
       "company": "University of Hawaiʻi School of Life Sciences",
       "position": "Web Content & Communications Assistant",
       "website": "http://www.hawaii.edu/lifesciences/",
-      "startDate": "2023-01-01",
+      "startDate": "2022-12-01",
       "endDate": "Present",
       "summary": "Enhanced web content and managed digital communications, ensuring up-to-date information and user-friendly online experiences.",
       "highlights": [
