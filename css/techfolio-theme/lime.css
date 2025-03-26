@@ -197,6 +197,88 @@ a {
   visibility: visible;
   opacity: 1;
 }
+/* PDF Optimization Styles */
+@media print {
+  /* Compact overall layout */
+  body.pdf-styles {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    max-width: 100% !important;
+  }
+
+  /* Reduce spacing and margins */
+  .pdf-styles .container {
+    padding: 5px !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Compact sections */
+  .pdf-styles .row {
+    margin: 2px 0 !important;
+    padding: 2px 0 !important;
+  }
+
+  /* Heading sizes */
+  .pdf-styles h1.display-4 {
+    font-size: 1.2rem !important;
+    margin-bottom: 5px !important;
+  }
+
+  .pdf-styles h1.display-6 {
+    font-size: 1rem !important;
+    margin-bottom: 3px !important;
+  }
+
+  /* Typography */
+  .pdf-styles p, 
+  .pdf-styles li {
+    font-size: 9px !important;
+    line-height: 1.1 !important;
+    margin-bottom: 2px !important;
+  }
+
+  /* Compact containers */
+  .pdf-styles .container1 {
+    padding: 5px !important;
+    margin: 2px 0 !important;
+    background-color: transparent !important;
+  }
+
+  /* Compact lists */
+  .pdf-styles ul {
+    margin-left: 15px !important;
+    padding-left: 10px !important;
+  }
+
+  /* Hide unnecessary elements */
+  .pdf-styles .pdf-download-btn {
+    display: none !important;
+  }
+
+  /* Ensure links are printable */
+  .pdf-styles a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+  /* Grayscale and print-friendly styling */
+  .pdf-styles {
+    color: black !important;
+    filter: grayscale(100%);
+  }
+
+  /* Compact social links */
+  .pdf-styles .small-link {
+    font-size: 8px !important;
+    color: black !important;
+  }
+}
+
+/* Additional PDF-specific styles */
+.pdf-styles .tf-social {
+  fill: black !important;
+}
 
 body:not(.pdf-styles) .social-link-resume span {
   color: #333;
