@@ -317,39 +317,98 @@ layout: home
 </style>
 
 <script>
-  function downloadPDF() {
-  const element = document.body; // or specify a specific container, like document.querySelector('.container')
-
-  // Add PDF-specific styling
+function downloadPDF() {
+  const element = document.body;
   element.classList.add('pdf-styles');
 
-  // Add section separators (dotted lines)
-  const sections = document.querySelectorAll('h1.display-6'); // Adjust to match your headings
-  sections.forEach((section) => {
-    // Create a dotted line after each section
-    const dottedLine = document.createElement('hr');
-    dottedLine.style.border = 'none';
-    dottedLine.style.borderTop = '1px dotted black';
-    dottedLine.style.margin = '10px 0';
-    section.parentElement.appendChild(dottedLine);
-  });
+  // Remove references section
+  const referencesSection = document.querySelector('div[data-section="references"]');
+  if (referencesSection) {
+    referencesSection.remove();
+  }
 
-  // Generate the PDF with html2pdf
-  html2pdf(element, {
-    margin: 0.2,
-    filename: 'resume.pdf',
-    image: { type: 'jpeg', quality: 1 },
-    html2canvas: { scale: 2, useCORS: true }, // Adjust scale for fitting on one page
-    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
-  }).then(() => {
-    // Remove PDF-specific styling after download
-    element.classList.remove('pdf-styles');
-
-    // Remove the dynamically added dotted lines
-    sections.forEach((section) => {
-      const dottedLine = section.parentElement.querySelector('hr');
-      if (dottedLine) dottedLine.remove();
+  // Optimize content layout for single-page view
+  function optimizePDFLayout() {
+    // Reduce spacing and margins
+    const containers = document.querySelectorAll('.container, .container1');
+    containers.forEach(container => {
+      container.style.padding = '5px';
+      container.style.margin = '2px 0';
     });
+
+    // Reduce font sizes and line heights
+    const elementsToResize = [
+      'h1.display-4',   // Name
+      'h1.display-6',   // Section headers
+      'p', 
+      'li'
+    ];
+    
+    elementsToResize.forEach(selector => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach(el => {
+        el.style.fontSize = '0.7rem';
+        el.style.lineHeight = '1.1';
+        el.style.marginBottom = '2px';
+      });
+    });
+
+    // Compact work and education entries
+    const workEntries = document.querySelectorAll('.row.mb-3.container1');
+    workEntries.forEach(entry => {
+      entry.style.marginBottom = '3px';
+      
+      // Further reduce spacing between job details
+      const paragraphs = entry.querySelectorAll('p');
+      paragraphs.forEach(p => {
+        p.style.marginBottom = '0.15rem';
+      });
+
+      // Compact lists
+      const lists = entry.querySelectorAll('ul');
+      lists.forEach(ul => {
+        ul.style.marginBottom = '0.15rem';
+        ul.style.paddingLeft = '15px';
+      });
+    });
+
+    // Remove bottom margins from sections
+    const sections = document.querySelectorAll('.row.pt-4');
+    sections.forEach(section => {
+      section.style.paddingTop = '5px';
+    });
+  }
+
+  // Apply optimizations
+  optimizePDFLayout();
+
+  // Generate PDF
+  html2pdf(element, {
+    margin: 0.1,        // Minimal margin
+    filename: 'resume.pdf',
+    image: { 
+      type: 'jpeg', 
+      quality: 1 
+    },
+    html2canvas: { 
+      scale: 2, 
+      useCORS: true,
+      logging: false  // Disable logging
+    },
+    jsPDF: { 
+      unit: 'in', 
+      format: 'a4', 
+      orientation: 'portrait' 
+    },
+  }).then(() => {
+    // Clean up - remove added styles
+    element.classList.remove('pdf-styles');
+    
+    // Restore original layout
+    if (referencesSection) {
+      const sectionsContainer = document.querySelector('.container');
+      sectionsContainer.appendChild(referencesSection);
+    }
   });
 }
 
