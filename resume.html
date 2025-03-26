@@ -327,64 +327,35 @@ function downloadPDF() {
     referencesSection.remove();
   }
 
-  // Optimize content layout for single-page view
-  function optimizePDFLayout() {
-    // Reduce spacing and margins
+  // Optimize layout
+  function prepareForPDF() {
+    // Add skills section styling
+    const skillsSection = document.querySelector('div[data-section="skills"]');
+    if (skillsSection) {
+      skillsSection.classList.add('skills-section');
+    }
+
+    // Ensure consistent alignment
     const containers = document.querySelectorAll('.container, .container1');
     containers.forEach(container => {
-      container.style.padding = '5px';
-      container.style.margin = '2px 0';
+      container.style.margin = '10px 0';
+      container.style.padding = '0 10px';
     });
 
-    // Reduce font sizes and line heights
-    const elementsToResize = [
-      'h1.display-4',   // Name
-      'h1.display-6',   // Section headers
-      'p', 
-      'li'
-    ];
-    
-    elementsToResize.forEach(selector => {
-      const elements = document.querySelectorAll(selector);
-      elements.forEach(el => {
-        el.style.fontSize = '0.7rem';
-        el.style.lineHeight = '1.1';
-        el.style.marginBottom = '2px';
-      });
-    });
-
-    // Compact work and education entries
-    const workEntries = document.querySelectorAll('.row.mb-3.container1');
-    workEntries.forEach(entry => {
-      entry.style.marginBottom = '3px';
-      
-      // Further reduce spacing between job details
-      const paragraphs = entry.querySelectorAll('p');
-      paragraphs.forEach(p => {
-        p.style.marginBottom = '0.15rem';
-      });
-
-      // Compact lists
-      const lists = entry.querySelectorAll('ul');
-      lists.forEach(ul => {
-        ul.style.marginBottom = '0.15rem';
-        ul.style.paddingLeft = '15px';
-      });
-    });
-
-    // Remove bottom margins from sections
+    // Adjust specific sections
     const sections = document.querySelectorAll('.row.pt-4');
     sections.forEach(section => {
-      section.style.paddingTop = '5px';
+      section.style.display = 'flex';
+      section.style.alignItems = 'baseline';
     });
   }
 
-  // Apply optimizations
-  optimizePDFLayout();
+  // Prepare for PDF
+  prepareForPDF();
 
   // Generate PDF
   html2pdf(element, {
-    margin: 0.1,        // Minimal margin
+    margin: [0.5, 0.5, 0.5, 0.5],  // top, right, bottom, left
     filename: 'resume.pdf',
     image: { 
       type: 'jpeg', 
@@ -393,11 +364,11 @@ function downloadPDF() {
     html2canvas: { 
       scale: 2, 
       useCORS: true,
-      logging: false  // Disable logging
+      logging: false
     },
     jsPDF: { 
       unit: 'in', 
-      format: 'a4', 
+      format: 'letter', 
       orientation: 'portrait' 
     },
   }).then(() => {
