@@ -403,6 +403,8 @@ function downloadPDF() {
   }).then(() => {
     // Clean up - remove added styles
     element.classList.remove('pdf-styles');
+    window.location.reload();
+
     
     // Restore original layout
     if (referencesSection) {
