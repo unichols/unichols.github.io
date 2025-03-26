@@ -27,11 +27,11 @@
   "skills": [
     {
       "name": "Programming Languages & Frameworks",
-      "keywords": ["C", "C++", "Java", "JavaScript", "SQL", "Python"]
+      "keywords": ["C", "C++", "Java", "JavaScript", "SQL", "Python", "Unix", "Cabling", "Linux", "Access Points", "SSH", "Network Switches"]
     },
     {
       "name": "Technical Tools & Operating Systems",
-      "keywords": ["MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad"]
+      "keywords": ["MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad", "myPhP", "System Maintenance"]
     }
   ],
   "education": [
