@@ -275,12 +275,13 @@ layout: home
     fill: #000 !important;
   }
   .pdf-styles h1, .pdf-styles .lead {
-    font-size: 1rem !important; /* Significantly smaller headings */
+    font-size: 1rem !important;
     color: #000 !important;
     margin-bottom: 3px !important;
+    text-align: center !important;
   }
   .pdf-styles .small-link a, .pdf-styles .small-link i {
-    font-size: 0.6rem !important; /* Even smaller contact links */
+    font-size: 0.6rem !important;
   }
   .pdf-styles .tf-social {
     display: inline-block !important;
@@ -288,8 +289,8 @@ layout: home
   }
   /* Extremely compact text */
   .pdf-styles p, .pdf-styles a, .pdf-styles span, .pdf-styles li {
-    font-size: 8px !important; /* Smallest readable font size */
-    line-height: 1.0 !important;
+    font-size: 8px !important;
+    line-height: 1.1 !important;
     margin-bottom: 1px !important;
   }
   .pdf-styles .no-print {
@@ -302,15 +303,17 @@ layout: home
     padding: 3px !important;
     margin: 2px 0 !important;
   }
-  /* Very narrow container */
+  /* Centered and balanced container */
   .pdf-styles .container {
-    max-width: 600px !important; /* Narrower container */
-    margin: 0 auto;
-    padding: 2px !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
   }
   .pdf-styles .row {
     margin-bottom: 2px !important;
     padding: 1px 0 !important;
+    display: flex !important;
+    justify-content: space-between !important;
   }
   .pdf-styles .row.pt-4 {
     padding-top: 2px !important;
@@ -320,18 +323,29 @@ layout: home
     border-top: 1px dotted black;
     margin: 2px 0;
   }
-  /* Reduce spacing in columns */
+  /* Balanced column spacing */
+  .pdf-styles .col-lg-3 {
+    text-align: right !important;
+    padding-right: 10px !important;
+    max-width: 25% !important;
+  }
+  .pdf-styles .col-lg-9 {
+    max-width: 75% !important;
+    padding-left: 10px !important;
+  }
   .pdf-styles .col, .pdf-styles .col-lg-3, .pdf-styles .col-lg-9 {
-    padding-left: 2px !important;
-    padding-right: 2px !important;
+    padding: 2px !important;
   }
   /* Compact lists */
   .pdf-styles ul {
     margin-left: 10px !important;
     padding-left: 5px !important;
   }
+  /* Ensure contact info is centered */
+  .pdf-styles .row:first-of-type .col:last-child {
+    text-align: right !important;
+  }
 </style>
-
 <script>
 function downloadPDF() {
   const element = document.body;
