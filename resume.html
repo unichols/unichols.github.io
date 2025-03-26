@@ -263,57 +263,73 @@ layout: home
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <style>
   .pdf-styles {
-    filter: grayscale(100%); /* Converts everything to black and white */
-    color: #000 !important; /* Ensures all text is black */
+    filter: grayscale(100%);
+    color: #000 !important;
   }
-  /* Additional adjustments for elements that need to be black in PDF */
   .pdf-styles a {
-    color: #000 !important; /* Make all links black */
-    text-decoration: none; /* Remove underline from links in PDF */
+    color: #000 !important;
+    text-decoration: none;
   }
-
   .pdf-styles i, .pdf-styles .bi, .pdf-styles svg {
-    color: #000 !important; /* Make icons black */
+    color: #000 !important;
     fill: #000 !important;
   }
   .pdf-styles h1, .pdf-styles .lead {
-    font-size: 1.5rem; /* Smaller heading size for PDF */
+    font-size: 1rem !important; /* Significantly smaller headings */
     color: #000 !important;
+    margin-bottom: 3px !important;
   }
-
   .pdf-styles .small-link a, .pdf-styles .small-link i {
-    font-size: 0.8rem; /* Smaller link size for contact info in PDF */
+    font-size: 0.6rem !important; /* Even smaller contact links */
   }
   .pdf-styles .tf-social {
     display: inline-block !important;
-    fill: black !important; /* Ensure icons are black in PDF */
+    fill: black !important;
   }
-  /* General small font for PDF */
+  /* Extremely compact text */
   .pdf-styles p, .pdf-styles a, .pdf-styles span, .pdf-styles li {
-    font-size: 10px !important;
-    line-height: 1.2;
+    font-size: 8px !important; /* Smallest readable font size */
+    line-height: 1.0 !important;
+    margin-bottom: 1px !important;
   }
   .pdf-styles .no-print {
     display: none !important;
   }
   .pdf-styles .container1 {
-    filter: grayscale(100%); /* Converts everything to black and white */
-    color: #000 !important; /* Ensures all text is black */
-     background-color: #ffffff;
+    filter: grayscale(100%);
+    color: #000 !important;
+    background-color: #ffffff;
+    padding: 3px !important;
+    margin: 2px 0 !important;
   }
-  /* Wider body for PDF */
-.pdf-styles .container {
-  max-width: 800px; /* Adjust the width as needed */
-  margin: 0 auto;   /* Center the container */
-}
-
-/* Dotted line styling for sections */
-.pdf-styles hr {
-  border: none;
-  border-top: 1px dotted black; /* Creates the dotted line */
-  margin: 10px 0; /* Adjust spacing */
-}
-
+  /* Very narrow container */
+  .pdf-styles .container {
+    max-width: 600px !important; /* Narrower container */
+    margin: 0 auto;
+    padding: 2px !important;
+  }
+  .pdf-styles .row {
+    margin-bottom: 2px !important;
+    padding: 1px 0 !important;
+  }
+  .pdf-styles .row.pt-4 {
+    padding-top: 2px !important;
+  }
+  .pdf-styles hr {
+    border: none;
+    border-top: 1px dotted black;
+    margin: 2px 0;
+  }
+  /* Reduce spacing in columns */
+  .pdf-styles .col, .pdf-styles .col-lg-3, .pdf-styles .col-lg-9 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+  /* Compact lists */
+  .pdf-styles ul {
+    margin-left: 10px !important;
+    padding-left: 5px !important;
+  }
 </style>
 
 <script>
