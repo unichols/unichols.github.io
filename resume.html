@@ -58,13 +58,9 @@ layout: home
         <h1 class="display-6 text-start m-0">Summary</h1>
       </div>
       <div class="col-lg-9 container1">
-        <div class="row mb-3">
-          <div class="col-9">
-            <p class="m-0">
-              {{site.data.bio.basics.summary}}
-            </p>
-          </div>
-        </div>
+        <p class="m-0">
+          {{site.data.bio.basics.summary}}
+        </p>
       </div>
     </div>
 
@@ -75,16 +71,12 @@ layout: home
       </div>
       <div class="col-lg-9 container1">
         {% for entry in site.data.bio.skills %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0">
-                <b>{{ entry.name }}:</b>
-                  {% for keyword in entry.keywords %}
-                  {{ keyword }}{% if forloop.last != true %}, {% endif %}
-                  {% endfor %}
-              </p>
-            </div>
-          </div>
+          <p class="m-0">
+            <b>{{ entry.name }}:</b>
+              {% for keyword in entry.keywords %}
+                {{ keyword }}{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+          </p>
         {% endfor %}
       </div>
     </div>
@@ -251,19 +243,15 @@ layout: home
       </div>
 
       <div class="col-lg-9 container1">
-         <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0">
-                {% for entry in site.data.bio.references %}
-                  {{ entry.name }}
-                  {% if entry.reference and entry.reference.size > 0 %}
-                    <em>{{ entry.reference }}</em>
-                  {% endif %}
-                {% endfor %}
-              </p>
-            </div>
-          </div>
-        </div>
+        <p class="m-0">
+          {% for entry in site.data.bio.references %}
+            {{ entry.name }}
+            {% if entry.reference and entry.reference.size > 0 %}
+              <em>{{ entry.reference }}</em>
+            {% endif %}
+          {% endfor %}
+        </p>
+      </div>
     </div>
     {% endif %}
   </div>
