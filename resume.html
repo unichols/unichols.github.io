@@ -296,19 +296,21 @@ layout: home
   .pdf-styles .row.container1 {
     display: block !important;
     align-items: center !important;
-    margin: 3px 0 !important; /* Consistent margin */
-    background-color: #f0f0f0 !important; /* Light gray background */
+    margin: 3px 0 !important;
+    background-color: #f0f0f0 !important;
+    padding: 8px !important; /* Slightly increased padding */
   }
-
+  
   .pdf-styles .container1 p {
-    margin: 0 !important; /* Remove any internal paragraph margins */
+    margin: 0 !important;
   }
+  
   .pdf-styles .col-3 {
     text-align: right !important;
     width: 25% !important;
     position: relative !important;
     right: 0 !important;
-    margin-left: auto !important; /* This pushes the column to the right */
+    margin-left: auto !important;
   }
   
   .pdf-styles .row.mb-3,
@@ -316,43 +318,34 @@ layout: home
     display: flex !important;
     align-items: center !important;
     margin: 2px 0 !important;
-    padding: 5px !important;
+    padding: 8px !important; /* Consistent padding */
     background-color: #f0f0f0 !important;
   }
-    
+  
   .pdf-styles .col-lg-9.container1 .row.mb-3 {
     background-color: transparent !important;
     padding: 0 !important;
     margin: 0 !important;
   }
   
-  .pdf-styles .row.mb-3 .col-9 {
-    flex-grow: 1 !important;
-  }
-  
-  .pdf-styles .row.mb-3 p {
-    margin: 0 !important;
-    line-height: 1.1 !important;
-  }
-  
-  .pdf-styles .row.mb-3 ul {
-    margin: 0 !important;
-    padding-left: 15px !important;
-  }
+  .pdf-styles .row.mb-3 .col-9,
   .pdf-styles .row.mb-3.container1 .col-9 {
     flex-grow: 1 !important;
+    padding-right: 10px !important; /* Add some breathing room */
   }
   
+  .pdf-styles .row.mb-3 p,
   .pdf-styles .row.mb-3.container1 p {
     margin: 0 !important;
-    line-height: 1.1 !important;
+    line-height: 1.2 !important; /* Slightly increased for readability */
   }
   
+  .pdf-styles .row.mb-3 ul,
   .pdf-styles .row.mb-3.container1 ul {
     margin: 0 !important;
     padding-left: 15px !important;
   }
-  /* Centered container with more breathing room */
+  
   .pdf-styles .container {
     max-width: 650px !important;
     margin: 0 auto !important;
