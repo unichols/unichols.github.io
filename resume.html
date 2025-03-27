@@ -306,13 +306,15 @@ layout: home
   .pdf-styles .col-3 {
     text-align: right !important;
     width: 25% !important;
-    flex: 0 0 auto !important;
-    position: absolute !important;
+    position: relative !important;
     right: 0 !important;
+    margin-left: auto !important; /* This pushes the column to the right */
   }
   
   .pdf-styles .row.mb-3 {
-    position: relative !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
   }
   /* Centered container with more breathing room */
   .pdf-styles .container {
