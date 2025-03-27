@@ -9,15 +9,6 @@ layout: home
     background-color: #e0f2df;
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 15px;
-  }
-  
-  /* Ensure all work and activity entries have consistent styling */
-  .col-lg-9 > .row.mb-3 {
-    background-color: #e0f2df;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
   }
 </style>
 <div id="resume" style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
@@ -181,9 +172,9 @@ layout: home
         <div class="col-lg-3">
           <h1 class="display-6 text-start m-0">Activities</h1>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9 container1">
           {% for entry in site.data.bio.volunteer %}
-          <div class="row mb-3 container1">
+          <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
@@ -302,7 +293,7 @@ layout: home
     display: none !important;
   }
   .pdf-styles .container1,
-  .pdf-styles .row.mb-3.container1 {
+  .pdf-styles .row.container1 {
     display: block !important;
     align-items: center !important;
     margin: 3px 0 !important;
@@ -425,35 +416,68 @@ function downloadPDF() {
   const element = document.body;
   element.classList.add('pdf-styles');
 
-  // Hide download button
-  const downloadButtons = document.querySelectorAll('.pdf-download-btn');
-  downloadButtons.forEach(button => {
-    button.style.display = 'none';
-  });
+  // Remove references section
+  const referencesSection = document.querySelector('div[data-section="references"]');
+  if (referencesSection) {
+    referencesSection.remove();
+  }
 
-  // Add container1 class to elements that don't have it but should
-  const workEntries = document.querySelectorAll('.col-lg-9 > .row.mb-3:not(.container1)');
-  workEntries.forEach(entry => {
-    entry.classList.add('container1');
-    entry.style.backgroundColor = '#e0f2df';
-    entry.style.padding = '15px';
-    entry.style.borderRadius = '8px';
-    entry.style.marginBottom = '15px';
-  });
+  // Optimize layout
+  function prepareForPDF() {
+    // Add skills section styling
+    const skillsSection = document.querySelector('div[data-section="skills"]');
+    if (skillsSection) {
+      skillsSection.classList.add('skills-section');
+    }
+
+    // Ensure consistent alignment
+    const containers = document.querySelectorAll('.container, .container1');
+    containers.forEach(container => {
+      container.style.margin = '10px 0';
+      container.style.padding = '0 10px';
+    });
+
+    // Adjust specific sections
+    const sections = document.querySelectorAll('.row.pt-4');
+    sections.forEach(section => {
+      section.style.display = 'flex';
+      section.style.alignItems = 'baseline';
+    });
+  }
+
+  // Prepare for PDF
+  prepareForPDF();
 
   // Generate PDF
   html2pdf(element, {
-    margin: [0.5, 0.5, 0.5, 0.5],
-    filename: 'Ursula_Nichols_Resume.pdf',
-    image: { type: 'jpeg', quality: 1 },
-    html2canvas: { scale: 2, useCORS: true },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+    margin: [0.5, 0.5, 0.5, 0.5],  // top, right, bottom, left
+    filename: 'resume.pdf',
+    image: { 
+      type: 'jpeg', 
+      quality: 1 
+    },
+    html2canvas: { 
+      scale: 2, 
+      useCORS: true,
+      logging: false
+    },
+    jsPDF: { 
+      unit: 'in', 
+      format: 'letter', 
+      orientation: 'portrait' 
+    },
   }).then(() => {
-    // Restore original styling
+    // Clean up - remove added styles
     element.classList.remove('pdf-styles');
-    downloadButtons.forEach(button => {
-      button.style.display = '';
-    });
+    window.location.reload();
+
+    
+    // Restore original layout
+    if (referencesSection) {
+      const sectionsContainer = document.querySelector('.container');
+      sectionsContainer.appendChild(referencesSection);
+    }
   });
 }
+
 </script>
