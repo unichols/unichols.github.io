@@ -293,16 +293,17 @@ layout: home
     display: none !important;
   }
   .pdf-styles .container1 {
-    filter: grayscale(100%);
-    color: #000 !important;
-    background-color: #f0f0f0 !important; /* Light gray background */
     display: flex !important;
     align-items: center !important;
-    padding: 5px !important;
-    margin-top: 3px !important;
-    margin-right: 0 !important;
-    margin-bottom: 3px !important;
-    margin-left: 0 !important;  
+    justify-content: center !important;
+    padding: 5px 5px !important; /* Equal padding on all sides */
+    margin: 3px 0 !important; /* Consistent margin */
+    background-color: #f0f0f0 !important; /* Light gray background */
+  }
+
+  .pdf-styles .container1 p {
+    margin: 0 !important; /* Remove any internal paragraph margins */
+    text-align: center !important; /* Center text horizontally */
   }
   /* Centered container with more breathing room */
   .pdf-styles .container {
