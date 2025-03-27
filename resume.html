@@ -440,8 +440,8 @@ function downloadPDF() {
             contentCol.style.backgroundColor = '#f0f0f0';
             contentCol.style.padding = '15px';
             contentCol.style.borderRadius = '15px';
-            contentCol.style.marginBottom = '50px';
-            contentCol.style.marginTop = '50px';
+            contentCol.style.marginBottom = '5px';
+            contentCol.style.marginTop = '5px';
           }
         }
       }
@@ -485,7 +485,7 @@ function downloadPDF() {
 
   // Generate PDF
   html2pdf(element, {
-    margin: [0.1, 0.1, 0.1, 0.1],  // top, right, bottom, left
+    margin: [0, 0, 0, 0],  // top, right, bottom, left
     filename: 'Resume_Nichols_Ursula.pdf',
     image: { 
       type: 'jpeg', 
