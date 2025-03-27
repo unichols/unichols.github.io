@@ -311,10 +311,7 @@ layout: home
     margin-left: auto !important; /* This pushes the column to the right */
   }
   
-  .pdf-styles .row.mb-3 {
-    display: flex !important;
-    align-items: center !important;
-  }
+  .pdf-styles .row.mb-3,
   .pdf-styles .row.mb-3.container1 {
     display: flex !important;
     align-items: center !important;
@@ -322,7 +319,26 @@ layout: home
     padding: 5px !important;
     background-color: #f0f0f0 !important;
   }
+    
+  .pdf-styles .col-lg-9.container1 .row.mb-3 {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   
+  .pdf-styles .row.mb-3 .col-9 {
+    flex-grow: 1 !important;
+  }
+  
+  .pdf-styles .row.mb-3 p {
+    margin: 0 !important;
+    line-height: 1.1 !important;
+  }
+  
+  .pdf-styles .row.mb-3 ul {
+    margin: 0 !important;
+    padding-left: 15px !important;
+  }
   .pdf-styles .row.mb-3.container1 .col-9 {
     flex-grow: 1 !important;
   }
