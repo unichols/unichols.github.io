@@ -251,15 +251,19 @@ layout: home
       </div>
 
       <div class="col-lg-9 container1">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
-      </div>
+         <div class="row mb-3">
+            <div class="col-9">
+              <p class="m-0">
+                {% for entry in site.data.bio.references %}
+                  {{ entry.name }}
+                  {% if entry.reference and entry.reference.size > 0 %}
+                    <em>{{ entry.reference }}</em>
+                  {% endif %}
+                {% endfor %}
+              </p>
+            </div>
+          </div>
+        </div>
     </div>
     {% endif %}
   </div>
