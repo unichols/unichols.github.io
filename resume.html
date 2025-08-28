@@ -4,6 +4,36 @@ layout: home
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+<style>
+  .container1 {
+    background-color: #e0f2df;
+    padding: 12px;  /* Reduced from 20px */
+    border-radius: 6px;  /* Reduced from 8px */
+    margin-bottom: 8px;  /* Added to reduce spacing */
+  }
+  
+  /* More compact section spacing */
+  .row.pt-4 {
+    padding-top: 1rem !important;  /* Reduced spacing between sections */
+  }
+  
+  /* Tighter work entry spacing */
+  .row.mb-3 {
+    margin-bottom: 0.75rem !important;  /* Reduced from 1rem */
+  }
+  
+  /* Smaller fonts for content */
+  .container1 p, .container1 li {
+    font-size: 0.9rem;  /* Slightly smaller text */
+    line-height: 1.3;   /* Tighter line spacing */
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Compact section headers */
+  .display-6 {
+    font-size: 1.1rem !important;  /* Smaller section headers */
+  }
+</style>
 <div id="resume" style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
@@ -251,56 +281,167 @@ layout: home
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <style>
-  /* === NORMAL PAGE STYLES === */
-  .container1 {
-    background-color: #e0f2df;
-    padding: 12px;
-    border-radius: 6px;
-    margin-bottom: 8px;
-  }
-  
-  .row.pt-4 { padding-top: 1rem !important; }
-  .row.mb-3 { margin-bottom: 0.75rem !important; }
-  .display-6 { font-size: 1.1rem !important; }
-  
-  .container1 p, .container1 li {
-    font-size: 0.9rem;
-    line-height: 1.3;
-    margin-bottom: 0.25rem;
-  }
-  
-  /* === PDF STYLES === */
   .pdf-styles {
     filter: grayscale(100%);
     color: #000 !important;
   }
-  
   .pdf-styles a {
     color: #000 !important;
     text-decoration: none;
   }
+  .pdf-styles i, .pdf-styles .bi, .pdf-styles svg {
+    color: #000 !important;
+    fill: #000 !important;
+  }
+  .pdf-styles h1, .pdf-styles .lead {
+    font-size: 1.2rem !important;
+    color: #000 !important;
+    margin-bottom: 5px !important;
+    text-align: center !important;
+  }
+  .pdf-styles .small-link a, .pdf-styles .small-link i {
+    font-size: 0.7rem !important;
+  }
+  .pdf-styles .tf-social {
+    display: inline-block !important;
+    fill: black !important;
+  }
+  /* Slightly larger, more readable text */
+  .pdf-styles p, .pdf-styles a, .pdf-styles span, .pdf-styles li {
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 2px !important;
+  }
+  .pdf-styles .no-print {
+    display: none !important;
+  }
+  .pdf-styles .container1 ul,
+  .pdf-styles .row.container1 ul,
+  .pdf-styles .row.mb-3.container1 ul {
+    margin: 0 !important;
+    padding-left: 15px !important;
+    line-height: 1.2 !important;
+  }
   
+  .pdf-styles .container1 b,
+  .pdf-styles .row.container1 b,
+  .pdf-styles .row.mb-3.container1 b {
+    margin: 0 !important;
+    padding: 2px 0 !important;
+  }
+  /* Clean slate for container1 areas */
   .pdf-styles .container1,
   .pdf-styles .row.container1 {
+    display: block !important;
     background-color: #f0f0f0 !important;
     padding: 8px !important;
     margin: 3px 0 !important;
-    border-radius: 0;
+    border-radius: 4px !important;
   }
   
-  .pdf-styles p, .pdf-styles li, .pdf-styles a {
-    font-size: 10px !important;
-    line-height: 1.3 !important;
+  /* Reset all margins/padding inside grey areas */
+  .pdf-styles .container1 * {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Add consistent spacing only between main elements */
+  .pdf-styles .container1 > p,
+  .pdf-styles .container1 > div {
+    margin-bottom: 3px !important;
+  }
+  
+  .pdf-styles .container1 > p:last-child,
+  .pdf-styles .container1 > div:last-child {
+    margin-bottom: 0 !important;
+  }
+  
+  /* Fix nested row spacing within grey areas */
+  .pdf-styles .container1 .row.mb-3 {
+    background-color: transparent !important;
+    padding: 2px 0 !important;
     margin: 2px 0 !important;
   }
+  .pdf-styles .col-3 {
+    text-align: right !important;
+    width: 25% !important;
+    position: relative !important;
+    right: 0 !important;
+    margin-left: auto !important;
+  }
+  .pdf-styles .row.mb-3,
+  .pdf-styles .row.mb-3.container1 {
+    display: flex !important;
+    align-items: center !important;
+    margin: 3px 0 !important;
+    padding: 8px !important; /* Consistent padding */
+    background-color: #f0f0f0 !important;
+  }
   
-  .pdf-styles .col-lg-9 { padding-left: 0 !important; }
-  .pdf-styles .col-lg-3 { padding-right: 10px !important; }
+  .pdf-styles .col-lg-9.container1 .row.mb-3 {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .pdf-styles .row.mb-3 .col-9,
+  .pdf-styles .row.mb-3.container1 .col-9 {
+    flex-grow: 1 !important;
+    padding-right: 10px !important; /* Add some breathing room */
+  }
+  
+  .pdf-styles .row.mb-3 p,
+  .pdf-styles .row.mb-3.container1 p {
+    margin: 0 !important;
+    line-height: 1.2 !important; /* Slightly increased for readability */
+  }
+  
+  .pdf-styles .row.mb-3 ul,
+  .pdf-styles .row.mb-3.container1 ul {
+    margin: 0 !important;
+    padding-left: 15px !important;
+  }
   
   .pdf-styles .container {
     max-width: 650px !important;
     margin: 0 auto !important;
     padding: 25px !important;
+  }
+  .pdf-styles .row {
+    margin-bottom: 3px !important;
+    padding: 2px 0 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .pdf-styles .row.pt-4 {
+    padding-top: 3px !important;
+  }
+  .pdf-styles hr {
+    border: none;
+    border-top: 1px dotted black;
+    margin: 3px 0;
+  }
+  /* Balanced column spacing */
+  .pdf-styles .col-lg-3 {
+    text-align: right !important;
+    padding-right: 10px !important;
+    max-width: 25% !important;
+  }
+  .pdf-styles .col-lg-9 {
+    max-width: 75% !important;
+    padding-left: 0px !important;
+  }
+  .pdf-styles .col, .pdf-styles .col-lg-3, .pdf-styles .col-lg-9 {
+    padding: 3px !important;
+  }
+  /* Compact lists */
+  .pdf-styles ul {
+    margin-left: 10px !important;
+    padding-left: 5px !important;
+  }
+  /* Ensure contact info is centered */
+  .pdf-styles .row:first-of-type .col:last-child {
+    text-align: right !important;
   }
 </style>
 <script>
@@ -331,8 +472,8 @@ function downloadPDF() {
             // Apply container1 styling
             contentCol.classList.add('container1');
             contentCol.style.backgroundColor = '#f0f0f0';
-            //contentCol.style.padding = '20px';
-            //contentCol.style.borderRadius = '8px';
+            contentCol.style.padding = '20px';
+            contentCol.style.borderRadius = '8px';
             contentCol.style.marginBottom = '15px';
             contentCol.style.marginTop = '15px';
           }
@@ -370,7 +511,7 @@ function downloadPDF() {
       h.style.fontWeight = 'bold';
       h.style.marginBottom = '5px';
     });
-  } 
+  }
 
   // Apply targeted styling
   prepareForPDF();
@@ -407,4 +548,5 @@ function downloadPDF() {
     }
   });
 }
+
 </script>
