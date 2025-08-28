@@ -230,13 +230,6 @@ a {
     margin-bottom: 2px !important;
   }
 
-  /* Compact containers */
-  .pdf-styles .container1 {
-    padding: 5px !important;
-    margin: 2px 0 !important;
-    background-color: transparent !important;
-  }
-
   /* Compact lists */
   .pdf-styles ul {
     margin-left: 15px !important;
