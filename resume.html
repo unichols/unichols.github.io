@@ -331,11 +331,24 @@ layout: home
   .pdf-styles .container1 p,
   .pdf-styles .row.container1 p,
   .pdf-styles .row.mb-3.container1 p {
-    margin: 0 !important;
+    margin: 2px 0 !important;        /* Add consistent margin */
     line-height: 1.2 !important;
-    padding: 2px 0 !important;
+    padding: 0 !important;           /* Remove padding that's creating extra space */
   }
   
+  /* Fix container1 internal spacing */
+  .pdf-styles .container1 {
+    padding: 8px 12px !important;    /* More balanced padding (top/bottom, left/right) */
+  }
+  
+  /* Remove extra spacing from first and last elements */
+  .pdf-styles .container1 p:first-child {
+    margin-top: 0 !important;
+  }
+  
+  .pdf-styles .container1 p:last-child {
+    margin-bottom: 0 !important;
+  } 
   .pdf-styles .container1 ul,
   .pdf-styles .row.container1 ul,
   .pdf-styles .row.mb-3.container1 ul {
