@@ -197,14 +197,6 @@ a {
   visibility: visible;
   opacity: 1;
 }
-/* PDF Optimization Styles */
-@media print {
-  /* Compact overall layout */
-  body.pdf-styles {
-    font-size: 10px !important;
-    line-height: 1.2 !important;
-    max-width: 100% !important;
-  }
 
   /* Reduce spacing and margins */
   .pdf-styles .container {
