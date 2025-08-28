@@ -198,19 +198,6 @@ a {
   opacity: 1;
 }
 
-  /* Reduce spacing and margins */
-  .pdf-styles .container {
-    padding: 5px !important;
-    margin: 0 !important;
-    max-width: 100% !important;
-  }
-
-  /* Compact sections */
-  .pdf-styles .row {
-    margin: 2px 0 !important;
-    padding: 2px 0 !important;
-  }
-
   /* Heading sizes */
   .pdf-styles h1.display-4 {
     font-size: 1.2rem !important;
@@ -220,14 +207,6 @@ a {
   .pdf-styles h1.display-6 {
     font-size: 1rem !important;
     margin-bottom: 3px !important;
-  }
-
-  /* Typography */
-  .pdf-styles p, 
-  .pdf-styles li {
-    font-size: 9px !important;
-    line-height: 1.1 !important;
-    margin-bottom: 2px !important;
   }
 
   /* Compact lists */
