@@ -315,40 +315,6 @@ layout: home
   .pdf-styles .no-print {
     display: none !important;
   }
-  .pdf-styles .container1,
-  .pdf-styles .row.container1 {
-    display: block !important;
-    align-items: center !important;
-    margin: 3px 0 !important;
-    background-color: #f0f0f0 !important;
-    padding: 12px !important; /* Slightly increased padding */
-  }
-  
-  .pdf-styles .container1 p {
-    margin: 0 !important;
-  }
-  
-  .pdf-styles .container1 p,
-  .pdf-styles .row.container1 p,
-  .pdf-styles .row.mb-3.container1 p {
-    margin: 2px 0 !important;        /* Add consistent margin */
-    line-height: 1.2 !important;
-    padding: 0 !important;           /* Remove padding that's creating extra space */
-  }
-  
-  /* Fix container1 internal spacing */
-  .pdf-styles .container1 {
-    padding: 8px 12px !important;    /* More balanced padding (top/bottom, left/right) */
-  }
-  
-  /* Remove extra spacing from first and last elements */
-  .pdf-styles .container1 p:first-child {
-    margin-top: 0 !important;
-  }
-  
-  .pdf-styles .container1 p:last-child {
-    margin-bottom: 0 !important;
-  } 
   .pdf-styles .container1 ul,
   .pdf-styles .row.container1 ul,
   .pdf-styles .row.mb-3.container1 ul {
@@ -363,7 +329,39 @@ layout: home
     margin: 0 !important;
     padding: 2px 0 !important;
   }
+  /* Clean slate for container1 areas */
+  .pdf-styles .container1,
+  .pdf-styles .row.container1 {
+    display: block !important;
+    background-color: #f0f0f0 !important;
+    padding: 8px !important;
+    margin: 3px 0 !important;
+    border-radius: 4px !important;
+  }
   
+  /* Reset all margins/padding inside grey areas */
+  .pdf-styles .container1 * {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Add consistent spacing only between main elements */
+  .pdf-styles .container1 > p,
+  .pdf-styles .container1 > div {
+    margin-bottom: 3px !important;
+  }
+  
+  .pdf-styles .container1 > p:last-child,
+  .pdf-styles .container1 > div:last-child {
+    margin-bottom: 0 !important;
+  }
+  
+  /* Fix nested row spacing within grey areas */
+  .pdf-styles .container1 .row.mb-3 {
+    background-color: transparent !important;
+    padding: 2px 0 !important;
+    margin: 2px 0 !important;
+  }
   .pdf-styles .col-3 {
     text-align: right !important;
     width: 25% !important;
