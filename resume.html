@@ -488,9 +488,9 @@ function downloadPDF() {
     // Adjust font sizes for better readability in PDF
     const paragraphs = document.querySelectorAll('p, li, a');
     paragraphs.forEach(p => {
-      p.style.fontSize = '10px';
-      p.style.lineHeight = '1.3';
-      p.style.margin = '2px 0';
+      p.style.fontSize = '11px';  // Slightly larger
+      p.style.lineHeight = '1.4';  // More space
+      p.style.margin = '3px 0';    // More margin
     });
     
     // Make headings stand out
