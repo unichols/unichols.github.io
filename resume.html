@@ -464,7 +464,15 @@ function downloadPDF() {
   if (referencesSection) {
     referencesSection.remove();
   }
-
+  document.querySelectorAll('.row.mb-3 p, .row.mb-3.container1 p').forEach((p) => {
+    if (p.children.length === 1 && p.children[0].tagName === 'A' && p.textContent.trim() === p.children[0].textContent.trim()) {
+      p.remove();
+    }
+  });
+  const activitiesSection = document.querySelector('div[data-section="activities"]');
+  if (activitiesSection) {
+    activitiesSection.remove();
+  }  
   // Only target specific sections for styling
   function prepareForPDF() {
     // Find all section headers
