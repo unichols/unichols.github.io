@@ -43,11 +43,15 @@
             {% capture name %}{{ profile.network | downcase }}{% endcapture %}
             <div class="col text-center social-link-home">
               {% if name == 'github' %}
-                <img src="/img/GIFS/github.gif" alt="GitHub" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-                <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">View GitHub Profile</a></span>
+                <a href="{{ url }}" target="_blank">
+                  <img src="/img/GIFS/github.gif" alt="GitHub" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                  <span class="hover-text tooltip-one">View GitHub Profile</span>
+                </a>
               {% elsif name == 'linkedin' %}
-                <img src="/img/GIFS/NavBar3.gif" alt="LinkedIn" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-                <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">Connect on LinkedIn</a></span>
+                <a href="{{ url }}" target="_blank">
+                  <img src="/img/GIFS/NavBar3.gif" alt="LinkedIn" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                  <span class="hover-text tooltip-one">Connect on LinkedIn</span>
+                </a>
               {% endif %}
             </div>
           {% endfor %}
