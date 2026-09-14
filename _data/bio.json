@@ -27,7 +27,7 @@
   "skills": [
     {
       "name": "IT & Technical Support",
-      "keywords": ["hardware and software troubleshooting", "Mac and Windows OS support", "network fundamentals (TCP/IP, DNS, SSH)", "ticketing and case documentation", "Google Workspace and SaaS administration", "account lifecycle and provisioning"]
+      "keywords": ["hardware and software troubleshooting", "Network vendor device configuration", "Mac and Windows OS support", "network fundamentals (TCP/IP, DNS, SSH)", "ticketing and case documentation", "Google Workspace and SaaS administration", "account lifecycle and provisioning"]
     },
     {
       "name": "Operations & Administration",
