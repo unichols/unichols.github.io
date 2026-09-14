@@ -31,8 +31,10 @@
           {% if site.data.bio.basics.email %}
             {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
             <div class="col text-center social-link-home">
-              <img src="/img/GIFS/email.gif" alt="Email" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text tooltip-one"><a href="{{ url }}">Send an Email</a></span>
+              <a href="{{ url }}">
+                <img src="/img/GIFS/email.gif" alt="Email" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                <span class="hover-text tooltip-one">Send an Email</span>
+              </a>
             </div>
           {% endif %}
 
