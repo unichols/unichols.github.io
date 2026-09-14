@@ -122,9 +122,9 @@
       "website": "",
       "startDate": "2017-04-01",
       "endDate": "2025-09-21",
-      "summary": "Eight years in a high-volume, customer-facing coffee and food service environment in Honolulu, promoted to shift lead.",
+      "summary": "Eight years in a high-volume, customer-facing coffee and food service environment in Honolulu.",
       "highlights": [
-        "Ran daily shift operations, trained and onboarded new hires, and held service quality steady through peak volume and turnover."
+        "Ran daily shift operations, trained new hires, and held service quality steady through peak volume and turnover."
       ]
     }
   ],
@@ -136,6 +136,26 @@
       "endDate": "2019",
       "summary": "Coordinated community outreach events focused on public safety and engagement, bringing together resources and volunteers to create impactful experiences.",
       "highlights": []
+    },
+    {
+      "position": "CableTrackPro",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "",
+      "summary": "Full-stack web application for cable installation tracking, deployed and maintained in production on DigitalOcean.",
+      "highlights": [
+        "Designed the database schema, built automated testing modules, and implemented role-based access control."
+      ]
+    },
+    {
+      "position": "Pelagic Pixels",
+      "website": "",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "Automated data generation pipeline for marine object detection, built in Python.",
+      "highlights": [
+        "Built the augmentation module and validated output against YOLOv5."
+      ]
     }
   ]
 }
