@@ -469,6 +469,12 @@ function downloadPDF() {
       p.remove();
     }
   });
+  document.querySelectorAll('.row.pt-4').forEach((sec) => {
+  const h = sec.querySelector('.display-6');
+    if (h && h.textContent.trim() === 'Activities') {
+      sec.querySelectorAll('ul').forEach((ul) => ul.remove());
+    }
+  });
   /*const activitiesSection = document.querySelector('div[data-section="activities"]');
   if (activitiesSection) {
     activitiesSection.remove();
