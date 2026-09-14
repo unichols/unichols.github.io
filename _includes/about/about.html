@@ -21,8 +21,10 @@
           {% if site.data.bio.basics.website %}
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center social-link-home">
-              <img src="/img/GIFS/home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
-              <span class="hover-text tooltip-one"><a href="{{ url }}" target="_blank">Visit My Website</a></span>
+              <a href="{{ url }}" target="_blank">
+                <img src="/img/GIFS/home.gif" alt="Website" class="social-icon" style="width: 40px; height: 40px; vertical-align: middle;">
+                <span class="hover-text tooltip-one">Visit My Website</span>
+              </a>
             </div>
           {% endif %}
 
