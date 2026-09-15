@@ -191,7 +191,9 @@ a {
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 1000;
 }
-
+.social-link-home a .tooltip-one {
+  color: var(--tf-green1) !important;
+}
 /* Show tooltip on hover */
 .social-link-home:hover .tooltip-one {
   visibility: visible;
